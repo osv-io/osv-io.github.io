@@ -9,7 +9,7 @@ class: community
 
 Merry Christmas everyone
 
-![Merry Christmas](/images/merry_christmasA_80x60.jpg)
+![Merry Christmas](images/merry_christmasA_80x60.jpg)
 
 [Read more...](/ "Read more")
 {:.readmore}
