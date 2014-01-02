@@ -1,7 +1,0 @@
----
-layout: default
-title: Amazon EC2
-category: community
----
-
-Amazon EC2

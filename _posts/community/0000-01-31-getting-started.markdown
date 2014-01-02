@@ -3,13 +3,14 @@ layout: default
 title: Getting started
 category: community
 nav: community
+show_heading: yes
+read_more: yes
 ---
-
-# Getting started #
-
 In order to build and locally run Osv, just follow our REAME:
 
 [https://github.com/cloudius-systems/osv/blob/master/README.md](https://github.com/cloudius-systems/osv/blob/master/README.md)
+
+<!--more-->
 
 ## Compile ##
 

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Amazon EC2
+category: community
+show_heading: yes
+read_more: yes
+---
+Osv can run on top of AWS EC2. At the moment HVM mode only is enabled and suffers from variety of issues that we are slowly tackling. Believe it or not, we just managed to boot it at the first time on September 10th.
+
+<!--more-->
+
+More information on how to run Osv on EC2 can be found here

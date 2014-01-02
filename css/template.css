@@ -500,11 +500,11 @@ a:hover {text-decoration:underline;}
 .mainContnet li{
 	margin-left:20px;
 }
-.community hr, .category-desc {
+.blog hr, .category-desc {
 	clear:both; 
 	border-bottom:1px solid #ededed; 
 }
-.community hr {
+.blog hr {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
@@ -667,12 +667,11 @@ h3 {
 }
 
 
-.page-header h2, .blog h2, .community h2 {
+.page-header h2, .blog h2, h2.section-header {
 	font-size:20px;
 	margin-bottom:0px;
-	
 }
-.page-header h2, .community h2 {
+.page-header h2, h2.section-header {
 	font-family: 'Open Sans';
 	font-weight: 600;
 	background: url(../images/lampIcon.jpg) 0 0 no-repeat;

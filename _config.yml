@@ -3,3 +3,4 @@ markdown: kramdown
 pygments: true
 permalink: /:title
 baseurl: /osv.io
+excerpt_separator: <!--more-->

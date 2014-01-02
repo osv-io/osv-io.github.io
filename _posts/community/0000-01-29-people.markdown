@@ -1,0 +1,31 @@
+---
+layout: default
+title: People
+category: community
+show_heading: yes
+---
+
+## Within Cloudius Systems: ##
+
+* Amnon Heiman
+* Asias He
+* Avi Kivity
+* Dor Laor
+* Glauber Costa, Lord of Sealand
+* Gleb Natapov
+* Nadav Har`El
+* Pekka Enberg
+* Raphael S. Carvalho
+* Tomasz Grabiec
+* Tzach Livyatan
+* Vladislav Zolotarov
+
+## Involved in the project: ##
+
+* Benoît Canet
+* Dmitry Fleytman
+* Or Cohen
+* Ronen Narkis
+
+Want to help? join us as a developer, user or enthusiast.
+Check out our [resource](/) for more info
