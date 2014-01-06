@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: nav
 title: Downloads
 category: community
+nav: community
 show_heading: yes
 ---
 

@@ -545,6 +545,9 @@ h3 {
 	padding-top:15px;
 	font-size:19px;
 }
+.contactTable {
+    margin: 0 auto;
+}
 .contactTable td, .contactTable a{
 	color:#2b6ea6;
 	font-size:18px;
@@ -683,5 +686,17 @@ h3 {
 .tooltip{
 	display:none !important;
 }
-
+table.benchmark {
+    border-collapse: collapse;
+}
+table.benchmark td, table.benchmark th {
+    padding: 0.5em;
+    border: 1px solid #000;
+}
+table.benchmark td.positive {
+     color: #4F9325;
+}
+table.benchmark td.negative {
+    color: #DA231A;
+}
  

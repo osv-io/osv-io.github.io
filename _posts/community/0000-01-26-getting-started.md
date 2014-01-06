@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: nav
 title: Getting started
 category: community
 nav: community

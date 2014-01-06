@@ -1,13 +1,150 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="homeTopBannerLeft">
+    <div class="custom">
+        {% capture welcome %}{% include welcome.md %}{% endcapture %}
+        {{ welcome | markdownify }}
+    </div>
 </div>
+<div class="homeTopBannerRight">
+<h1>News feed</h1>
+<marquee height="115" behavior="scroll" direction="up" onMouseOver="this.stop();" onMouseOut="this.start();" scrollamount="2">
+<div id="k2ModuleBox107" class="k2ItemsBlock">
+<ul>
+{% for news in site.categories.news %}
+<li class="{% cycle 'odd', 'even' %}">
+    <div class="moduleItemExtraFields">
+        <ul>
+            <div class="typeDate">
+                <span class="moduleItemExtraFieldsValue">{{ news.date | date: "%b %d, %Y" }}</span>
+                <div class="clr"></div>
+            </div>
+            <div class="typeTextarea">
+                <span class="moduleItemExtraFieldsValue">{{ news.content }}</span>
+                <div class="clr"></div>
+            </div>
+        </ul>
+    </div>
+    <div class="clr"></div>
+    <div class="moduleItemVideo">
+        <span class="moduleItemVideoCaption"></span>
+        <span class="moduleItemVideoCredits"></span>
+    </div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+</li>
+{% endfor %}
+</ul>
+</div>
+</marquee>
+</div>
+<div class="clr"></div>
+<div class="homeCols">
+<div class="homeCol1">
+<div class="moduletable keyFeture">
+<h3>Key features</h3>
+<div id="k2ModuleBox96" class="k2ItemsBlock  keyFeture">
+<ul>
+{% for feature in site.categories.feature %}
+<li class="keyfeatures-menuitem">
+    <a class="moduleItemTitle" >{{ feature.title }}</a>
+    <div class="clr"></div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+<div class="homeCol2">
+<div class="moduletable tabs">
+
+<div id="k2ModuleBox97" class="k2ItemsBlock  tabs">
+<ul>
+{% for feature in site.categories.feature %}
+<li class="{% cycle 'odd', 'even' %}">
+    <a class="moduleItemTitle" >{{ feature.title }}</a>
+    <div class="moduleItemIntrotext">{{ feature.content }}</div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+</li>
+{% endfor %}
+<li class="clearList"></li>
+</ul>
+</div>
+</div>
+
+</div>
+<div class="homeCol3">
+    <div class="moduletable cloud">
+        {% capture typical %}{% include typical-cloud-stack.md %}{% endcapture %}
+        {{ typical | markdownify }}
+    </div>
+
+</div>
+<div class="clr"></div>
+<div style="border-bottom: 1px solid #d7d7d7; width:100%;"></div>
+<!--------------------------------------------------------------------------->
+<div class="homeColWidth">
+    <div class="moduletable">
+        {% capture design %}{% include design-for-the-cloud.md %}{% endcapture %}
+        {{ design | markdownify }}
+    </div>
+
+</div>
+<div class="designedImg">
+    <div class="moduletable">
+        <div class="custom"  >
+            <p><img src="/images/amazon.jpg" width="228" height="59" alt="amazon" /><img src="/images/xen.jpg" width="228" height="59" alt="xen" /><img src="/images/kvm.jpg" width="228" height="59" alt="kvm" /><img src="/images/vmware.png" width="228" height="59" alt="vmware" /></p></div>
+    </div>
+
+</div>
+<!--------------------------------------------------------------------------->
+<div class="clr"></div>
+<div class="homeCol6">
+    <div class="moduletable deployment">
+        <h3>Deployment scenarios</h3>
+        <div id="k2ModuleBox99" class="k2ItemsBlock  deployment">
+        <ul>
+            {% for scenario in site.categories.scenario %}
+            <li class="keyfeatures-menuitem">
+                <center>
+                    <img src="{{ scenario.icon }}" alt="{{ scenario.title }}"/>
+                </center>
+                <hr/>
+
+                <a class="moduleItemTitle" >{{ scenario.title }}</a>
+                <div class="moduleItemIntrotext">
+                    {{ scenario.content }}
+                </div>
+                <div class="clr"></div>
+                <div class="clr"></div>
+                <div class="clr"></div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    </div>
+
+</div>
+<div class="homeCol4">
+    <div class="moduletable">
+        {% capture cloudme %}{% include cloud-me.md %}{% endcapture %}
+        {{ cloudme | markdownify }}
+    </div>
+
+</div>
+<div class="homeCol5">
+    <div class="moduletable">
+        {% capture runme %}{% include run-me.md %}{% endcapture %}
+        {{ runme | markdownify }}
+    </div>
+
+</div>
+</div>
+<div class="clr"></div>

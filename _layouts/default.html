@@ -1,21 +1,3 @@
 {% include header.html %}
-                {% for p in site.categories[{{page.nav}}] %}
-                {% if p.url == page.url %}
-                <li class="current active"><a href="{{p.url}}">{{p.title}}</a></li>
-                {% else %}
-                <li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
-    </div>
-    <div class="mainContnet ">
-    <div class="{{ page.class }}">
-    <div class="items-leading clearfix">
-        {% if page.show_heading %}
-        <h1>{{ page.title }}</h1>
-        {% endif %}
-        {{ content }}
-    </div><!-- end items-leading -->
+{{ content }}
 {% include footer.html %}
