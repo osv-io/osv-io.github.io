@@ -47,7 +47,7 @@
             <ul class="nav menu">
                 <li class="item-101{% if page.url == '/index.html' %} current{% endif %}"><a href="{{ site.baseurl }}" >Home</a></li>
                 {% for p in site.categories.top %}
-                <li class="{% if page.url == p.url %} current{% endif %}"><a href="{{ p.url }}" >{{ p.title }}</a></li>
+                <li class="{% if page.url == p.url %} current{% endif %}"><a href="{{ site.baseurl }}/{{ p.url }}" >{{ p.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
