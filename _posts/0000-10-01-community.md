@@ -3,6 +3,7 @@ layout: nav
 title: Community
 nav: community
 class: blog
+category: top
 ---
 
 {% for p in site.categories.community %}
