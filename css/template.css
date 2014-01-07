@@ -153,22 +153,22 @@ a:hover {text-decoration:underline;}
 }
 	.homeCols .homeCol4 .btn{
 		background:#ff9000 url(../images/upload.png) left no-repeat;
-		background-position: 20px 1px;
+		background-position: 10px 1px;
 	}
 	
 	.homeCols .homeCol4 .btn:hover{
 		background:#fca738 url(../images/upload.png) left no-repeat; 
-		background-position: 20px 1px;
+		background-position: 10px 1px;
 	}
 	
 	.homeCols .homeCol5 .btn{
 		background:#ff9000 url(../images/download.png) left no-repeat;
-		background-position: 20px 1px;
+		background-position: 10px 1px;
 	}
 	
 	.homeCols .homeCol5 .btn:hover{
 		background:#fca738 url(../images/download.png) left no-repeat; 
-		background-position: 20px 1px;
+		background-position: 10px 1px;
 	}
 	
 	.homeCols .homeCol4 span, .homeCols .homeCol5 span 
@@ -699,4 +699,12 @@ table.benchmark td.positive {
 table.benchmark td.negative {
     color: #DA231A;
 }
- 
+.typical-cloud-stack {
+    margin-left: 20px;
+}
+.typical-cloud-stack h3 {
+    margin-left: 0 !important;
+}
+.typical-cloud-stack p {
+    margin: 1em 0;
+}
