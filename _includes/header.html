@@ -45,9 +45,9 @@
     <div class="header"> <a class="logo" href="{{ site.baseurl }}"><img src="images/logo.jpg" /> </a>
         <div class="topMenu">
             <ul class="nav menu">
-                <li class="item-101{% if page.url == '/index.html' %} current{% endif %}"><a href="{{ site.baseurl }}" >Home</a></li>
+                <li class="{% if page.url == '/index.html' %}current{% endif %}"><a href="{{ site.baseurl }}" >Home</a></li>
                 {% for p in site.categories.top %}
-                <li class="{% if page.url == p.url or page.nav == p.nav %} current{% endif %}"><a href="{{ site.baseurl }}{{ p.url }}" >{{ p.title }}</a></li>
+                <li class="{% if page.url == p.url or page.nav and page.nav == p.nav %}current{% endif %}"><a href="{{ site.baseurl }}{{ p.url }}" >{{ p.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
