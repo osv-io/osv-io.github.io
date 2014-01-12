@@ -43,4 +43,16 @@ $(document).ready(function(e) {
 	$('.readmore').after("<div class='clr'></div>"); 
 
 	$(".wrap").height($(document).height()-140);
+
+    $('.theMobileMenu li.deeper > a').click(function(e){
+        e.preventDefault();
+        $('.theMobileMenu ul ul').hide();
+        $(this).next('ul').slideDown();
+        $('.theMobileMenu ul li').removeClass('active')
+        $(this).parent().addClass('active');
+    });
+
+    $('.footer .wrapf').click(function(e){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+    })
 });

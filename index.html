@@ -86,6 +86,38 @@ title: Home
         {{ typical | markdownify }}
     </div>
 </div>
+<div class="mobile keyfeatures">
+<div class="moduletable accordion keyFeature ">
+<h3>Key features</h3>
+<div id="k2ModuleBox112" class="k2ItemsBlock  accordion keyFeature ">
+<ul>
+{% for feature in site.categories.feature %}
+<li class="itemNum{{ forloop.index0 }}{% if forloop.last%} lastItem{% endif %}">
+    <a class="moduleItemTitle" >{{ feature.title }}</a>
+    <div class="moduleItemIntrotext">
+        {{ feature.content }}
+        <p>&nbsp;</p>      	        <a href="javascript:void(0)" class="closeTab">&nbsp;</a>
+    </div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+</li>
+{% endfor %}
+</ul>
+</div>
+<script>
+    jQuery(document).ready(function(e) {
+        $('.k2ItemsBlock.accordion .moduleItemTitle').click(function(e) {
+            $(this).toggleClass('active');
+            $(this).next('.moduleItemIntrotext').slideToggle();
+        });
+        $('.k2ItemsBlock.accordion .moduleItemIntrotext .closeTab').click(function(e) {
+            $(this).parent('.moduleItemIntrotext').slideUp();
+            $(this).parent('.moduleItemIntrotext').prev('.moduleItemTitle').removeClass('active');
+        });
+    });
+</script>		</div>
+</div>
 <div class="clr"></div>
 <div style="border-bottom: 1px solid #d7d7d7; width:100%;"></div>
 <!--------------------------------------------------------------------------->
