@@ -2,5 +2,5 @@ name: Your New Jekyll Site
 markdown: kramdown
 pygments: true
 permalink: /:title
-baseurl: http://osv.io
+baseurl: http://osv-io.github.io
 excerpt_separator: <!--more-->
