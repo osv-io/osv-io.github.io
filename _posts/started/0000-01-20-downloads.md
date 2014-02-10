@@ -1,8 +1,8 @@
 ---
 layout: nav
 title: Downloads
-category: community
-nav: community
+category: started
+nav: started
 show_heading: yes
 ---
 

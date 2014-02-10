@@ -1,12 +1,13 @@
 ---
 layout: nav
-title: Users
-nav: users
+title: Getting Started
+nav: started
 class: blog
 category: top
+order: 2
 ---
 
-{% for p in site.categories.users %}
+{% for p in site.categories.started %}
 {% if p.heading %}
 ## {{ p.heading }}
 {:.section-header}
@@ -23,4 +24,3 @@ category: top
 {% endif %}
 - - -
 {% endfor %}
-

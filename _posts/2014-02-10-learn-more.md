@@ -1,12 +1,13 @@
 ---
 layout: nav
-title: Development
-nav: dev
+title: Learn More
+nav: learn
 class: blog
 category: top
+order: 3
 ---
 
-{% for p in site.categories.dev %}
+{% for p in site.categories.learn %}
 {% if p.heading %}
 ## {{ p.heading }}
 {:.section-header}
@@ -23,4 +24,3 @@ category: top
 {% endif %}
 - - -
 {% endfor %}
-

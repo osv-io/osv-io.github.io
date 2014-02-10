@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Frequently asked questions
-category: users
+category: learn
 show_heading: yes
-nav: users
+nav: learn
 ---
 
 ## Why a new operating system?

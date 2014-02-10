@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: What is OSv?
-category: users
+category: learn
 show_heading: yes
-nav: users
+nav: learn
 ---
 
 ## Unlike general purpose operating systems, OSv is designed to run a single application and tuned for JVMs.
