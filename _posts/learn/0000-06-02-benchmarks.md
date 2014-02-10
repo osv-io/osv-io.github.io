@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Benchmarks
-category: dev
+category: learn
 show_heading: yes
-nav: dev
+nav: learn
 heading: Spec JVM performance
 ---
 

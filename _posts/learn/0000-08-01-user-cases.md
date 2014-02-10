@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Use Cases
-category: users
+category: learn
 show_heading: yes
-nav: users
+nav: learn
 ---
 
 ## Java application server (e.g. Tomcat)

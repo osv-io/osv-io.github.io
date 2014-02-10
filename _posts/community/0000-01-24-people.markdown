@@ -6,6 +6,9 @@ nav: community
 show_heading: yes
 ---
 
+Who is working on OSv?
+<!--more-->
+
 ## Within Cloudius Systems: ##
 
 * Amnon Heiman

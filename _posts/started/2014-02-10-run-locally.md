@@ -1,8 +1,8 @@
 ---
 layout: nav
-title: Getting started
-category: community
-nav: community
+title: Run Locally
+category: started
+nav: started
 show_heading: yes
 read_more: yes
 ---

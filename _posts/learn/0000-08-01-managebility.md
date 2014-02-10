@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Managebility
-category: users
+category: learn
 show_heading: yes
-nav: users
+nav: learn
 ---
 
 ## Management usage and API:
