@@ -18,12 +18,12 @@ nav: learn
 Test | TCP STREAM | TCP MAERTS | UDP STREAM | UDP Tx | TCP RR | UDP RR
 -----|------------|------------|------------|--------|--------|-------
      | Mbps       | Mbps       | Mbps       | Mbps   | Tps    | Tps
-OOTB Linux - 1cpu	|	37,478	|	31,134	|	1,216	|	4,678	|	46,642	|	46,642
-OOTB Linux - 4cpu	|	32,624	|	31,084	|	961	|	4,680	|	44,809	|	44,809
-Linux Firewall disabled - 1cpu	|	37,253	|	31,527	|	1,401	|	4,700	|	46,338	|	46,338
-Linux Firewall disabled - 4cpu	|	33,234	|	35,587	|	3,883	|	4,700	|	49,723	|	49,723
-OSv - 1cpu	|	40,505	|	36,499	|	5,529	|	4,803	|	80,089	|	80,089
-OSv - 4cpu	|	27,940	|	33,607	|	3,383	|	4,788	|	68,928	|	68,928
+OOTB Linux - 1cpu	|	37,478	|	31,134	|	1,216	|	4,678	| 45,912		|	46,642
+OOTB Linux - 4cpu	|	32,624	|	31,084	|	961	|	4,680	| 44,569		|	44,809
+Linux Firewall disabled - 1cpu	|	37,253	|	31,527	|	1,401	|	4,700	| 47,885	|	46,338
+Linux Firewall disabled - 4cpu	|	33,234	|	35,587	|	3,883	|	4,700	| 50,183	|	49,723
+OSv - 1cpu	|	40,505	|	36,499	|	5,529	|	4,803	|	73,371	|	80,089
+OSv - 4cpu	|	27,940	|	33,607	|	3,383	|	4,788	|	64,591	|	68,928
 {:.benchmarkTable}
 
 ### Relative results 
@@ -31,11 +31,11 @@ OSv - 4cpu	|	27,940	|	33,607	|	3,383	|	4,788	|	68,928	|	68,928
 Test | TCP STREAM | TCP MAERTS | UDP STREAM | UDP Tx | TCP RR | UDP RR
 -----|------------|------------|------------|--------|--------|-------
 OOTB Linux - 1cpu	|	1.00	|	1.00	|	1.00	|	1.00	|	1.00	|	1.00
-OOTB Linux - 4cpu	|	0.87	|	1.00	|	0.79	|	1.00	|	0.96	|	0.96
-Linux Firewall disabled - 1cpu	|	0.99	|	1.01	|	1.15	|	1.00	|	0.99	|	0.99
-Linux Firewall disabled - 4cpu	|	0.89	|	1.14	|	3.19	|	1.00	|	1.07	|	1.07
-OSv - 1cpu	|	1.08	|	1.17	|	4.55	|	1.03	|	1.72	|	1.72
-OSv - 4cpu	|	0.75	|	1.08	|	2.78	|	1.02	|	1.48	|	1.48
+OOTB Linux - 4cpu	|	0.87	|	1.00	|	0.79	|	1.00	|	0.97	|	0.96
+Linux Firewall disabled - 1cpu	|	0.99	|	1.01	|	1.15	|	1.00	|	1.04	|	0.99
+Linux Firewall disabled - 4cpu	|	0.89	|	1.14	|	3.19	|	1.00	|	1.09	|	1.07
+OSv - 1cpu	|	1.08	|	1.17	|	4.55	|	1.03	|	1.60	|	1.72
+OSv - 4cpu	|	0.75	|	1.08	|	2.78	|	1.02	|	1.41	|	1.48
 {:.benchmarkTable}
 
 *using Out Of The Box Linux - 1cpu as 1.00*
