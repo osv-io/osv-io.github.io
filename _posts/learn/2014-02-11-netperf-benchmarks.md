@@ -6,7 +6,17 @@ show_heading: yes
 nav: learn
 ---
 
-## Latest Benchmarks
+The test compare three different guest OS:
+
+1. Out of the box (OOTB) Linux
+2. Linux with a disabled Firewall
+3. OSv
+
+Test goal is comparing  OS guests 'as is'.
+No tuning is done on either Linux or OSv for this particular test .
+Since OSv does not comes with a default  firewall, Linux with a disabled firewall  is included to level the play field. 
+
+## Latest Benchmark
 {{ site.categories.netperf.first.content }}
 
 ## All Benchmarks
