@@ -20,6 +20,7 @@ Who is working on OSv?
 * Nadav Har`El
 * Pekka Enberg
 * Raphael S. Carvalho
+* Takuya Asada
 * Tomasz Grabiec
 * Tzach Livyatan
 * Vladislav Zolotarov
@@ -27,9 +28,13 @@ Who is working on OSv?
 ## Involved in the project: ##
 
 * Benoît Canet
+* Claudio Fontana
 * Dmitry Fleytman
+* Eduardo Piva 
 * Or Cohen
 * Ronen Narkis
+* Zhi Yong Wu
+
 
 Want to help? join us as a developer, user or enthusiast.
-Check out our [resource](/) for more info
+Check out our [resource](/contact) for more info
