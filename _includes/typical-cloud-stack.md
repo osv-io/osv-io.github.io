@@ -1,5 +1,5 @@
 ### Typical cloud stack
 
-JVM, OS and and Hyper-visor - all provides protection and abstraction. OSv, minimize the redundancy between these layers.
+The JVM, OS and hypervisor all provide protection and abstraction. OS<sup>v</sup> minimizes the redundancy in these layers by simplifying the OS.
 
 ![app](images/app.jpg)
