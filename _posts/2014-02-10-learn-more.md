@@ -19,7 +19,7 @@ order: 3
 {{ p.excerpt }}
 
 {% if p.no_readmore != true %}
-[Read more...]({{site.baseurl}}{{ p.url }} "Read more")
+[Read more...]({{site.url}}{{ p.url }} "Read more")
 {:.readmore}
 {% endif %}
 - - -
