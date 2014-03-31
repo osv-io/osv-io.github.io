@@ -10,38 +10,45 @@ title: OSv - the operating system designed for the cloud
     </div>
 </div>
 <div class="homeTopBannerRight">
-<h1>News feed</h1>
-<marquee height="115" behavior="scroll" direction="up" onMouseOver="this.stop();" onMouseOut="this.start();" scrollamount="2">
 <div id="k2ModuleBox107" class="k2ItemsBlock">
-<ul>
-{% for news in site.categories.news %}
-<li class="{% cycle 'odd', 'even' %}">
-    <div class="moduleItemExtraFields">
-        <ul>
-            <div class="typeDate">
-                <span class="moduleItemExtraFieldsValue">{{ news.date | date: "%b %d, %Y" }}</span>
-                <div class="clr"></div>
-            </div>
-            <div class="typeTextarea">
-                <span class="moduleItemExtraFieldsValue">{{ news.content }}</span>
-                <div class="clr"></div>
-            </div>
-        </ul>
-    </div>
-    <div class="clr"></div>
-    <div class="moduleItemVideo">
-        <span class="moduleItemVideoCaption"></span>
-        <span class="moduleItemVideoCredits"></span>
-    </div>
-    <div class="clr"></div>
-    <div class="clr"></div>
-</li>
-{% endfor %}
-</ul>
+<iframe
+src="http://www.slideshare.net/slideshow/embed_code/32826216"
+width="427" height="356" frameborder="0"
+marginwidth="0" marginheight="0" scrolling="no"
+style="border:1px solid #CCC; border-width:1px 1px 0;
+margin-bottom:5px; max-width: 100%;" allowfullscreen>
+</iframe> <div style="margin-bottom:5px"> <strong> <a
+href="https://www.slideshare.net/dmarti1111/o-sv-linux-collaboration-summit"
+title="OSv presentation from Linux Foundation
+Collaboration Summit" target="_blank">OSv presentation
+from Linux Foundation Collaboration Summit</a>
+</strong> from <strong><a
+href="http://www.slideshare.net/dmarti1111"
+target="_blank">Don Marti</a></strong> </div>
 </div>
-</marquee>
 </div>
 <div class="clr"></div>
+
+<div class="homeCols">
+
+<div class="homeCol5">
+    <div class="moduletable">
+        {% capture cloudme %}{% include cloud-me.md %}{% endcapture %}
+        {{ cloudme | markdownify }}
+    </div>
+</div>
+
+<div class="homeCol5">
+    <div class="moduletable">
+        {% capture runme %}{% include run-me.md %}{% endcapture %}
+        {{ runme | markdownify }}
+    </div>
+
+</div>
+</div>
+<div class="clr"></div>
+
+
 <div class="homeCols">
 <div class="homeCol1">
 <div class="moduletable keyFeture">
@@ -120,62 +127,6 @@ title: OSv - the operating system designed for the cloud
 </div>
 <div class="clr"></div>
 <div style="border-bottom: 1px solid #d7d7d7; width:100%;"></div>
-<!--------------------------------------------------------------------------->
-<div class="homeColWidth">
-    <div class="moduletable">
-        {% capture design %}{% include design-for-the-cloud.md %}{% endcapture %}
-        {{ design | markdownify }}
-    </div>
 
 </div>
-<div class="designedImg">
-    <div class="moduletable">
-        <div class="custom"  >
-            <p><img src="images/amazon.jpg" width="228" height="59" alt="amazon" /><img src="images/xen.jpg" width="228" height="59" alt="xen" /><img src="images/kvm.jpg" width="228" height="59" alt="kvm" /><img src="images/vmware.png" width="228" height="59" alt="vmware" /></p></div>
-    </div>
 
-</div>
-<!--------------------------------------------------------------------------->
-<div class="clr"></div>
-<div class="homeCol6">
-    <div class="moduletable deployment">
-        <h3>Deployment scenarios</h3>
-        <div id="k2ModuleBox99" class="k2ItemsBlock  deployment">
-        <ul>
-            {% for scenario in site.categories.scenario %}
-            <li class="keyfeatures-menuitem">
-                <center>
-                    <img src="{{ scenario.icon }}" alt="{{ scenario.title }}"/>
-                </center>
-                <hr/>
-
-                <a class="moduleItemTitle" >{{ scenario.title }}</a>
-                <div class="moduleItemIntrotext">
-                    {{ scenario.content }}
-                </div>
-                <div class="clr"></div>
-                <div class="clr"></div>
-                <div class="clr"></div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    </div>
-
-</div>
-<div class="homeCol4">
-    <div class="moduletable">
-        {% capture cloudme %}{% include cloud-me.md %}{% endcapture %}
-        {{ cloudme | markdownify }}
-    </div>
-
-</div>
-<div class="homeCol5">
-    <div class="moduletable">
-        {% capture runme %}{% include run-me.md %}{% endcapture %}
-        {{ runme | markdownify }}
-    </div>
-
-</div>
-</div>
-<div class="clr"></div>
