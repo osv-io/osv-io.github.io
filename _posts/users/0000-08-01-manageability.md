@@ -1,6 +1,6 @@
 ---
 layout: nav
-title: Managebility
+title: Manageability
 category: users
 show_heading: yes
 nav: users
