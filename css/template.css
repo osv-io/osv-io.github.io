@@ -38,6 +38,11 @@ a:hover {text-decoration:underline;}
 
 }
 
+.roadmapImage {
+    width:150%;
+    height:150%;
+}
+
 .btn {
     text-align:center;
     width:255px;
@@ -571,6 +576,27 @@ h3 {
 }
 .benchmarkTable tr:nth-child(odd) { background-color:#eee; }
 .benchmarkTable tr:nth-child(even) { background-color:#fff; }
+
+.supportTable {
+	font-size:14px;
+	font-family:'Open Sans';
+	padding:5px 9px 4px 9px;
+	margin:30px;
+        text-align:center !important;
+        width:125%;
+}
+
+.supportTable td:nth-child(1) {
+   text-align: left;
+}
+
+.supportTable td:nth-child(4) {
+   text-align: left;
+}
+
+.supportTable tr:nth-child(odd) { background-color:#eee; }
+.supportTable tr:nth-child(even) { background-color:#fff; }
+
 
 .introText {
 	font-weight:normal;
