@@ -37,6 +37,12 @@ a:hover {text-decoration:underline;}
 	
 
 }
+
+.btn {
+    text-align:center;
+    width:255px;
+}
+
 .btn:hover {
 	background:#fca738;
 	text-decoration:none!important;}
@@ -152,22 +158,22 @@ a:hover {text-decoration:underline;}
 }
 	.homeCols .homeCol4 .btn{
 		background:#ff9000 url(../images/upload.png) left no-repeat;
-		background-position: 10px 1px;
+		background-position: -5px 1px;
 	}
 	
 	.homeCols .homeCol4 .btn:hover{
 		background:#fca738 url(../images/upload.png) left no-repeat; 
-		background-position: 10px 1px;
+		background-position: -5px 1px;
 	}
 	
 	.homeCols .homeCol5 .btn{
 		background:#ff9000 url(../images/download.png) left no-repeat;
-		background-position: 10px 1px;
+		background-position: -5px 1px;
 	}
 	
 	.homeCols .homeCol5 .btn:hover{
 		background:#fca738 url(../images/download.png) left no-repeat; 
-		background-position: 10px 1px;
+		background-position: -5ypx 1px;
 	}
 	
 	.homeCols .homeCol4 span, .homeCols .homeCol5 span 
