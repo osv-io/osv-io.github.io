@@ -21,6 +21,11 @@ a:hover {text-decoration:underline;}
 	width:960px;
 	margin:0 auto; 
 }
+
+pre {
+	margin: 15px 0;
+}
+
 .clr {
 	clear:both;
 }
