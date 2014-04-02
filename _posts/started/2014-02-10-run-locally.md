@@ -6,9 +6,8 @@ nav: started
 show_heading: yes
 read_more: yes
 ---
-In order to build and locally run Osv, just follow our REAME:
 
-[https://github.com/cloudius-systems/osv/blob/master/README.md](https://github.com/cloudius-systems/osv/blob/master/README.md)
+In order to build and locally run OSv, just follow instruction from the [README](https://github.com/cloudius-systems/osv/blob/master/README.md) file.
 
 <!--more-->
 
