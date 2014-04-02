@@ -590,9 +590,9 @@ h3 {
    text-align: left;
 }
 
-.supportTable td:nth-child(4) {
-   text-align: left;
-}
+#.supportTable td:nth-child(4) {
+#   text-align: left;
+#}
 
 .supportTable tr:nth-child(odd) { background-color:#eee; }
 .supportTable tr:nth-child(even) { background-color:#fff; }
