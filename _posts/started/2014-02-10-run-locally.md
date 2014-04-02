@@ -7,24 +7,31 @@ show_heading: yes
 read_more: yes
 ---
 
-In order to build and locally run OSv, just follow instruction from the [README](https://github.com/cloudius-systems/osv/blob/master/README.md) file.
+The easiest way to try OSv locally is to use the Capstan tool to run one of the
+images from our public repository.
 
 <!--more-->
 
-## Compile ##
+&nbsp;
 
-Well, just in case, you'll have to run make;
+To install the tool please follow instructions in this [README](https://github.com/cloudius-systems/capstan/blob/master/README.md).
+After you have capstan installed you can try our basic image out:
 
-In practice there are more details since few rpms are needed and
+{% highlight bash %}
+$ capstan run cloudius/osv
+Created instance: i1396433884
+OSv v0.06
 
-you'll need to configure our git submodules and build them. Please go to the
+[/]%
+{% endhighlight %}
 
-above link and go through all of the instructions.
 
-## Run ##
+## Building and running from sources
 
-Osv has a tiny Python wrapper over qemu, just call it scripts/run.py and that's it. In practice the command line is the following:
+If you want to run OSv from sources, start by cloning the git project:
 
-qemu-system-x86_64 -vnc :1 -m 4g -smp 4 -device isa-serial,chardev=stdio -drive file=build/release/usr.img,if=virtio -netdev tap,id=hn0,vhost=on -device virtio-net-pci,netdev=hn0,id=nic1 -enable-kvm -cpu host,+x2apic
+{% highlight bash %}
+$ git clone https://github.com/cloudius-systems/osv.git
+{% endhighlight %}
 
-Note that the script supports Xen local invocation as well.
+Then follow the instructions in the [README](https://github.com/cloudius-systems/osv/blob/master/README.md) file.
