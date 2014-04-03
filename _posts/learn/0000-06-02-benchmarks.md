@@ -25,8 +25,13 @@ An unmodified memcached running on OS<sup>V</sup> was able to handle about 20% m
 
 &nbsp;
 
-Memcached makes high demands on the operating system. It needs to handle a huge number of requests and manage a lot of memory filled with small objects. Because OS<sup>V</sup> is not bound by 30-year-old Unix networking APIs used on other cloud guests, it is able to achieve dramatically higher throughput with lower overhead.
+### NFV optimization: using the memory::shrinker framework
 
+Memcached makes high demands on the operating system. It needs to handle a huge number of requests and manage a lot of memory filled with small objects.  On a typical Linux or Unix-like operating system, the memcached server uses a static limitation for maximum memory consumption. This prevents the guest from becoming sluggish due to memory exhaustion under high load, but it is impossible to optimally utilize the memory available when running with lower loads.
+
+Under OS<sup>V</sup>, osv-memcached uses another approach: it utilizes all memory available in the guest and may dynamically shrink the application's cache if the guest runs out of memory.  The shrinking will be triggered by the memory::shrinker framework, which notifies all registered applications when the amount of free memory in the system falls below some threshold.  By taking advantage of this interface,  osv-memcached will use the maximum amount of memory available in the guest at any moment, and is able to release any needed memory back to the OS when needed.
+
+This functionality means that OS<sup>V</sup> has higher throughput with zero tuning than a conventional OS with extensive tuning&mdash;a must for network functions virtualization (NFV) applications.
 
 
 ## More OS<sup>V</sup> benchmark results
