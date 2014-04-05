@@ -63,7 +63,7 @@ a:hover {text-decoration:underline;}
 	width:100%;
 }
 .topMenu {
-	width:617px;
+	width:660px;
 	float:right;
 	margin-top:24px;
 }
@@ -80,10 +80,16 @@ a:hover {text-decoration:underline;}
 	color:#555;
 	display:block;
 }
+
+.blog {
+    font-style:italic
+}
+
 .topMenu ul li.current a, .topMenu ul li.active a {
 	color:#2b6ea6;
 }
- .topMenu ul li:hover a{ 
+
+.topMenu ul li:hover a{ 
  color:#000;
  }
 /* HOME PAGE */

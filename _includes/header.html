@@ -51,9 +51,10 @@
                 {% for p in site.categories.top %}
 		{% if p.order == order %}
                 <li class="{% if page.url == p.url or page.nav and page.nav == p.nav %}current{% endif %}"><a href="{{ site.url }}{{ p.url }}" >{{ p.title }}</a></li>
-		{% endif %}
+                {% endif %}
                 {% endfor %}
 		{% endfor %}
+                <li class="blog"><a href="{{ site.url }}/blog" >Blog</a></li>
             </ul>
         </div>
     </div>
@@ -88,6 +89,7 @@
                             {% endfor %}
                         </ul>
                     </li>
+                    <li><a href="{{ site.url }}/blog" >Blog</a></li>
                 </ul>
             </div>
             <script>
