@@ -1,0 +1,19 @@
+---
+layout: nav
+title: Run on Google Compute Engine
+category: started
+nav: started
+show_heading: yes
+read_more: yes
+---
+OSv can run on Google Compute Engine (GCE).
+
+Images are available for you to start your own instances.
+
+<!--more-->
+
+<img width="75%" height="75%" src="/images/gce-capture.png">
+
+Detailed instructions on how to run OSv on GCE can be found [on the OSv wiki](https://github.com/cloudius-systems/osv/wiki/Running-OSv-on-Google-Compute-Engine).
+
+For updates on available images, follow [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.
