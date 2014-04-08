@@ -9,32 +9,21 @@ show_heading: yes
 Who is working on OSv?
 <!--more-->
 
-## Within Cloudius Systems: ##
+The original creators of OSv are Avi Kivity and Dor Laor, founders of
+[Cloudius-Systems](http://cloudius-systems.com/), both are still very
+much involve in the project.
 
-* Amnon Heiman
-* Asias He
-* Avi Kivity
-* Dor Laor
-* Glauber Costa, Lord of Sealand
-* Gleb Natapov
-* Nadav Har`El
-* Pekka Enberg
-* Raphael S. Carvalho
-* Takuya Asada
-* Tomasz Grabiec
-* Tzach Livyatan
-* Vladislav Zolotarov
+These days OSv project is lead by Cloudius-Systems and includes many
+talented people from difference companies and different places.
+  
+Here is a list of
+[contributors](https://github.com/cloudius-systems/osv/graphs/contributors)
+to the osv core.
 
-## Involved in the project: ##
-
-* Benoît Canet
-* Claudio Fontana
-* Dmitry Fleytman
-* Eduardo Piva 
-* Or Cohen
-* Ronen Narkis
-* Zhi Yong Wu
-
+Even more people are contributing to related projects like
+[Capstan](https://github.com/cloudius-systems/capstan/graphs/contributors),
+[OSv management](https://github.com/cloudius-systems/mgmt/graphs/contributors)
+and others.
 
 Want to help? join us as a developer, user or enthusiast.
-Check out our [resource](/contact) for more info
+Check out our [todo](/todo) for more info
