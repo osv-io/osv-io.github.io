@@ -9,7 +9,7 @@ show_heading: yes
 Who is working on OSv?
 <!--more-->
 
-OSv project is lead by Cloudius Systems and includes many
+OSv project is lead by [Cloudius Systems](http://cloudius-systems.com/) and includes many
 talented people from different companies and different places.
   
 Here is a list of
