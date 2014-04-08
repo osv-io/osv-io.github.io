@@ -9,11 +9,7 @@ show_heading: yes
 Who is working on OSv?
 <!--more-->
 
-The original creators of OSv are Avi Kivity and Dor Laor, founders of
-[Cloudius Systems](http://cloudius-systems.com/), both are still very
-much involved in the project.
-
-These days OSv project is lead by Cloudius Systems and includes many
+OSv project is lead by Cloudius Systems and includes many
 talented people from different companies and different places.
   
 Here is a list of
