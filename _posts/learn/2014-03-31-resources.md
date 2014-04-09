@@ -48,6 +48,10 @@ Pekka Enberg and Tzach Livyatan
 src="//www.youtube.com/embed/0TO1Mpstmf0" frameborder="0"
 allowfullscreen></iframe>
 
+* Dec 19, 2013, JVM Ballooning Design by Glauber Costa
+
+<iframe width="425" height="355" src="//www.youtube.com/embed/gXHdhkTVM6o" frameborder="0" allowfullscreen></iframe>
+
 
 * Nov 2013, *Linux Foundation*,  Introducing OSv: A New Open Source
 Operating System for the Cloud by Avi Kivity and Glauber Costa 
