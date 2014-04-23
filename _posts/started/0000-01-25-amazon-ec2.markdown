@@ -14,7 +14,7 @@ AMIs are available on EC2 for you to start your own instances.
 
 <img src="/images/ec2.png">
 
-Detailed instructions on how to run OSv on EC2 can be found [on the OSv wiki](https://github.com/cloudius-systems/osv/wiki/OSV-on-EC2).
+Detailed instructions on how to run OSv on EC2 can be found [on the OSv wiki](https://github.com/cloudius-systems/osv/wiki/Running-OSv-on-EC2).
 
 For updates on available AMIs, follow [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.
 
