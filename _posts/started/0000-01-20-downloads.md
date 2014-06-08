@@ -22,42 +22,46 @@ cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-c
 ---
 
 ### OSv Images
-Easiest way to look for latest OSv images and run them is using [Capstan](/capstan)
+The recommended way to run OSv [locally](/run-locally)
+is using [Capstan](/capstan)
 
-For OSv v0.09 images direct download see below
+
+The following images can be used to download standalone OSv image to
+use directly with KVM, VirtualBox, or VMWare.
+
+<!--more-->
 
 * OSv with CLI
-  * [Download]({{page.osv}}{{page.qcow}}) QCOW2 for KVM* 
-  * [Download]({{page.osv}}{{page.vbox}}) OVA for VirtualBox*
+  * [Download]({{page.osv}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.osv}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.osv}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.osv}}{{page.esx}}) OVA for VMWare ESXi
 
 
 * Cassandra Virtual Appliance
-  * [Download]({{page.cassandra}}{{page.qcow}}) QCOW2 for KVM* 
-  * [Download]({{page.cassandra}}{{page.vbox}}) OVA for VirtualBox*
+  * [Download]({{page.cassandra}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.cassandra}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.cassandra}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.cassandra}}{{page.esx}}) OVA for VMWare ESXi
 
 
 * Memcached Virtual Appliance
-  * [Download]({{page.mem}}{{page.qcow}}) QCOW2 for KVM* 
-  * [Download]({{page.mem}}{{page.vbox}}) OVA for VirtualBox*
+  * [Download]({{page.mem}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.mem}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.mem}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.mem}}{{page.esx}}) OVA for VMWare ESXi
 
 
 * Tomcat Virtual Appliance
-  * [Download]({{page.tomcat}}{{page.qcow}}) QCOW2 for KVM* 
-  * [Download]({{page.tomcat}}{{page.vbox}}) OVA for VirtualBox*
+  * [Download]({{page.tomcat}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.tomcat}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.tomcat}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.tomcat}}{{page.esx}}) OVA for VMWare ESXi
 
 
 * IPerf Virtual Appliance
-  * [Download]({{page.iperf}}{{page.qcow}}) QCOW2 for KVM* 
-  * [Download]({{page.iperf}}{{page.vbox}}) OVA for VirtualBox*
+  * [Download]({{page.iperf}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.iperf}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.iperf}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.iperf}}{{page.esx}}) OVA for VMWare ESXi
 
-\* Also available using Capstan search
