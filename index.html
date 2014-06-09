@@ -57,7 +57,6 @@ to try it now.</h2> </div>
 </div>
 <div class="clr"></div>
 
-
 <div class="homeCols">
 <div class="homeCol1">
 <div class="moduletable keyFeture">
@@ -96,12 +95,20 @@ to try it now.</h2> </div>
 </div>
 
 </div>
+
 <div class="homeCol3">
     <div class="moduletable cloud typical-cloud-stack">
         {% capture typical %}{% include typical-cloud-stack.md %}{% endcapture %}
         {{ typical | markdownify }}
     </div>
 </div>
+
+<div class="homeTopBannerLeft">
+  {% capture demo %}{% include hp-demo.md %}{% endcapture %}
+  {{ demo | markdownify }}
+</div>
+
+
 <div class="mobile keyfeatures">
 <div class="moduletable accordion keyFeature ">
 <h3>Key features</h3>
