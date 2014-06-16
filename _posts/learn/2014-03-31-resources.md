@@ -6,17 +6,21 @@ show_heading: yes
 nav: learn
 ---
 
-## videos and slides decks on OSv
+## videos and slide decks on OSv
 
 <!--more-->
+
+* June 2014 <a href="https://2014.event.cfsummit.com/schedule/537bc5ceecdcc42c49000013">OSv: Probably the Best OS for Cloud Workloads You've Never Heard Of</a> by <a href="http://blog.gopivotal.com/pivotal/pivotal-people/pivotal-people-roman-shaposhnik-founder-of-apache-bigtop-joins-pivotal">Roman  Shaposhnik</a> from <a href="http://www.gopivotal.com/">Pivotal Software</a>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/35814293" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
 
 * Mar 2014 <a
 href="https://www.slideshare.net/dmarti1111/o-sv-linux-collaboration-summit"
 title="OSv presentation from Linux Foundation
 Collaboration Summit 2014" target="_blank">OSv presentation
-from Linux Foundation Collaboration Summit</a>
-from <a href="http://www.slideshare.net/dmarti1111"
-target="_blank">Don Marti</a>
+from Linux Foundation Collaboration Summit</a> by Avi Kivity and Don Marti
+
 
 <iframe
 src="http://www.slideshare.net/slideshow/embed_code/32826216"
