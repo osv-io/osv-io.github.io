@@ -65,3 +65,5 @@ use directly with KVM, VirtualBox, or VMWare.
   * [Download]({{page.iperf}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.iperf}}{{page.esx}}) OVA for VMWare ESXi
 
+
+* *Older version of all virtual appliances available [here](http://s3.amazonaws.com/downloads.osv.io/index.html?prefix=cloudius/)*
