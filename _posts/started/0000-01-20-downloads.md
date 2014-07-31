@@ -13,11 +13,11 @@ vbox: .vbox.ova
 vmw: .vmw.zip
 
 
-osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.10
-tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.10
-mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.10
-iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.10
-cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.10
+osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.11
+tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.11
+mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.11
+iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.11
+cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.11
 
 ---
 
