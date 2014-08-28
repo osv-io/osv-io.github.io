@@ -13,15 +13,16 @@ vbox: .vbox.ova
 vmw: .vmw.zip
 
 
-osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.11
-tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.11
-mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.11
-iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.11
-cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.11
+osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.12
+tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.12
+mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.12
+iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.12
+cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.12
+redis: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-redis-memonly/osv-redis-memonly-v0.12
 
 ---
 
-### OSv Images
+### OSv Images - release 0.12
 The recommended way to run OSv [locally](/run-locally)
 is using [Capstan](/capstan)
 
@@ -36,7 +37,6 @@ use directly with KVM, VirtualBox, or VMWare.
   * [Download]({{page.osv}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.osv}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.osv}}{{page.esx}}) OVA for VMWare ESXi
-
 
 * Cassandra Virtual Appliance
   * [Download]({{page.cassandra}}{{page.qcow}}) QCOW2 for KVM
@@ -64,6 +64,12 @@ use directly with KVM, VirtualBox, or VMWare.
   * [Download]({{page.iperf}}{{page.vbox}}) OVA for VirtualBox
   * [Download]({{page.iperf}}{{page.vmw}}) VMW for VMWare workstation
   * [Download]({{page.iperf}}{{page.esx}}) OVA for VMWare ESXi
+
+* Redis Virtual Appliance
+  * [Download]({{page.redis}}{{page.qcow}}) QCOW2 for KVM
+  * [Download]({{page.redis}}{{page.vbox}}) OVA for VirtualBox
+  * [Download]({{page.redis}}{{page.vmw}}) VMW for VMWare workstation
+  * [Download]({{page.redis}}{{page.esx}}) OVA for VMWare ESXi
 
 
 * *Older version of all virtual appliances available [here](http://s3.amazonaws.com/downloads.osv.io/index.html?prefix=cloudius/)*
