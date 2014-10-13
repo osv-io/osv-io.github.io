@@ -6,7 +6,7 @@ show_heading: yes
 nav: learn
 ---
 
-OSv 0.14 "Aspen" is the first of a series of close OSv Beta releases.
+OSv 0.14 "Aspen" is the first of a series of closed Beta releases of OSv.
 
 OSv is a new lightweight OS, designed from the ground up to run in a
 virtual cloud environment, with maximum performance, low latency, and
@@ -14,77 +14,78 @@ simple management.
 
 This release focuses on stability, management and ease of use.
 
-To get into the OSv beta program please register [here](beta-registration).
+We are accepting applications for the OSv beta program.  To apply, please visit the  [Beta Registration](beta-registration) page.
 
 ### Release Features
 Below is a partial list of OSv Beta release features.
 
 
 #### Cloud Support
-OSv is fully functional on the following cloud provider:
+OSv is fully functional on the following cloud providers:
 
 * Amazon Web Service EC2
 * Google Compute Engine (GCE)
 
-OSv is fully functional on the following Hyper-visors:
+OSv is fully functional on the following hypervisors:
 
 * KVM
 * Xen
-* VMWare
+* VMware
 * VirtualBox
 
 #### Linux Compatibility
-OSv is binary compatible with Linux, and can run most Linux apps as
-shared library.
-More on porting Linux applications to OSv [here](https://github.com/cloudius-systems/osv/wiki/Porting-native-applications-to-OSv)
+OSv is binary compatible with Linux, and can run most Linux applications.
+
+For more information, visit [Porting Linux applications to OSv](https://github.com/cloudius-systems/osv/wiki/Porting-native-applications-to-OSv)
 
 
 #### REST API 
-REST API for configuration and run time management, full spec is
-[here](http://osv.io/api/swagger-ui/dist/index.html)
+
+OSv has a REST API for OS and application-level configuration and runtime management.  Detailed information is in the [OSv API online documentation](http://osv.io/api/swagger-ui/dist/index.html).
 
 
-REST API supports Includes:
+The REST API supports:
 
 * Optional SSL support
-* Swagger UI - browser base front end for the API
-* New Command Line Interface (CLI) build on top of the REST API. More
-  on the CLI [here](https://github.com/cloudius-systems/osv/wiki/Command-Line-Interface-(CLI))
+* Swagger UI - browser based front end for the API and documentation
+* New [ccommand line interface for the REST API](https://github.com/cloudius-systems/osv/wiki/Command-Line-Interface-(CLI))
 
 
 #### New Dashboard
-A new browser base Dashboard allow easier management and monitoring of
-OSv run-time. The Dashboard visualize the REST API, presenting a unify
-picture of every aspect of the system: CPU, threads status , custom
+
+A new browser based Dashboard allows easier management and monitoring of
+OSv at run-time. The Dashboard visualizes ethe REST API, presenting a unified
+picture of every aspect of the system: CPU, threads status, custom
 trace points and much more.
 
-When running OSv as a Virtual Appliance, the dashboard will
-automatically include a run-time and application tab, with the specific
-metric for each.
+When running OSv as a virtual appliance, the dashboard will
+automatically include run-time and application tabs, with specific
+metrics for each.
 For example, JVM and Cassandra tabs.
-You can also add you own tab when developing a new appliance.
+You can also add your own tabs when developing a new appliance.
 
 ![Dashboard main tab](images/dashboard_main_tab.png)
 
-More on the dashboard [here](TBD)  
 
 
 #### Performance
-OSv is par or better from Linux for each of the Virtual Appliance
+OSv has comparable or better performance compared to Linux for each of the virtual appliance
 provided.
-For more details and latest benchmark [here](TBD)
+
+Details are on the [OSv Benchmarks](/benchmarks) page.
 
 
 #### Cloud Init support
+
 Cloud Init is a mechanism which allows one to configure the instance
 at the time it is started.
-Cloud Init is supported via meta data in all major cloud providers.
+Cloud Init is supported in all major cloud providers.
 
 OSv Cloud Init is very extensible, where each application can add
 its own section. Out of the box OSv supports:
 
 * SSL setting via Cloud Init. More on SSL [here](TBD) 
-* Per application configuration. More on Cassandra Cloud Init support [here](TBD)
+* Per application configuration .More on Cassandra Cloud Init support [here](TBD)
 
 
 #### Virtual Appliances
@@ -103,7 +104,7 @@ on OSv. More [here](capstan)
 
 ### Beta FAQ
 
-* How can I become part of OSv beta program?
+* How can I become part of the OSv beta program?
 
 Please register [here](beta-registration)
 
@@ -114,7 +115,7 @@ We take beta testing very seriously, and we want to make sure we are giving our 
 * Will you have an open beta?
 
 Yes, we do plan an open beta in the near future.
-Please register on the form to be notified, or follow @CloudiusSystems on Twitter.
+Please register on the form to be notified, or follow [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.
 
 * The OSv project is open source, what makes the beta closed?
 
