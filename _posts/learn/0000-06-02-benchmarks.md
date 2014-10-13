@@ -6,13 +6,29 @@ show_heading: yes
 nav: learn
 ---
 
+## Redis on Amazon EC2
+
+[Redis](http://redis.io/) is a simple service that fills a valuable niche between a key-value data store and a full-scale NoSQL database such as Cassandra. Redis supports not just key-value items, but also more advanced data structures such as sets and queues.
+
+The following benchmark compares Redis (version beta-8) on OSv and on Ubuntu 14 AMI. To do that, we have just launched a new AMI, selected Ubuntu14.04, and launched it. We use the configuration file shipped with Redis by default, with one change: we disable disk activity.
+
+<img alt="Redis graph" width="100%" src="http://osv.io/blog/images/redis.png">
+
+On Ubuntu, Redis was run with:
+
+```
+	numactl --physcpubind=1 redis-server ~/redis.conf
+```
+
+Using numactl considerably reduces the standard deviation as a result of Linux scheduling.  The redis-benchmark command was run from another machine of the same type, running in the same zone and placement group.
+
 ## memcached
 
 [Memcached](http://memcached.org/) is a popular in-memory key-value store. It is used by many high-profile Web sites to cache results of database queries and prepared page sections, to significantly boost site performance.
 
 An unmodified memcached running on OS<sup>V</sup> was able to handle about 20% more requests per second than the same memcached version on Linux. A modified memcached, designed to use OS<sup>V</sup>-specific network APIs, had nearly four times the throughput. 
 
-<img src="https://docs.google.com/a/cloudius-systems.com/spreadsheet/oimg?key=0ArcF3GCoRwFrdHdqdFgwRWJGY3FmZlVSbTExZFBKWmc&oid=2&zx=l8qch0b4ej0z" />
+<img width="100%" src="https://docs.google.com/a/cloudius-systems.com/spreadsheet/oimg?key=0ArcF3GCoRwFrdHdqdFgwRWJGY3FmZlVSbTExZFBKWmc&oid=2&zx=l8qch0b4ej0z">
 
 <!--more-->
 
