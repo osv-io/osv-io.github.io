@@ -7,4 +7,4 @@ endpoints, available through a discoverable REST API.
 ![rest](images/rest.png)
 
 An optional in-browser interface makes full-stack
-development and deployment hassle-free.
+development and deployment hassle-free.  [Learn more...](/managebility/).
