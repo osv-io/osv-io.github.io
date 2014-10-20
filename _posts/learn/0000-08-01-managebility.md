@@ -6,33 +6,34 @@ show_heading: yes
 nav: learn
 ---
 
-## Management usage and API:
+## Management usage and API
 
-OSV can be managed by REST API or SSH.
+OSv places all management endpoints in a single location: a simple, documented REST API.  All management operations can be done using your chosen management tools, or your own scripts, over HTTP.
 
-### REST API
-On a cloud environment of multiple instances, interacting with each
-instance via GUI or CLI is non efficient. 
-Instead OS operations should allows easy automation.
-OSv REST API allows such remote automation.
+![OSv Dashboard screenshot](/images/dashboard.png)
 
-* Latest version of the REST API specification [here](http://osv.io/api/swagger-ui/dist/index.html)
-* Instruction on how to interact with OSV using the API
-  [here](https://github.com/cloudius-systems/mgmt/wiki/OSv-REST-API)
-  
+**An optional in-browser dashboard is available.**  The dashboard provides live updates and includes:
 
-### SSH 
-OSv is managed using the ssh protocol (implemented using [Apache MINA](http://mina.apache.org/)) and a shell. We have a [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) API for automated management.
+ * OS basics such as memory usage and CPU load
 
+ * Tracepoints for all system and application functionality
 
+ * JMX endpoints (using the [Jolokia](http://osv.io/blog/blog/2014/08/26/jolokia-jmx-connectivity-in-osv/) JMX-over-REST connector)
 
-<!--more-->
+ * Application-specific metrics, which can be added by the application developer.
 
-## Language support
+### REST API details
 
-[Java](http://java.com/en/download/index.jsp), [Ruby](http://jruby.org/), [Scala](http://www.scala-lang.org/), JavaScript (via [Rhino](http://en.wikipedia.org/wiki/Rhino_(JavaScript_engine)) and [Nashorn](http://en.wikipedia.org/wiki/Nashorn_(JavaScript_engine))), and practically any JVM language is supported.
+On a cloud environment of multiple instances, it is inefficient to interact with each instance using a conventional GUI or CLI designed for hardware servers.  The OSv REST API simplifies management.
 
-Hypervisor support
+* The latest version of the [REST API specification](http://osv.io/api/swagger-ui/dist/index.html)
 
-Xen and KVM are fully supported; VMware support is planned.
+* Details on how to interact with OSV using the API are in a Wiki article: 
+  [OSv REST API](https://github.com/cloudius-systems/mgmt/wiki/OSv-REST-API).
+ 
+### cloud-init
+
+The [cloud-init](https://github.com/cloudius-systems/osv/wiki/cloud-init) mechanism provides a simple way to provide per-instance configuration parameters to an OSv VM at boot time.  It is useful for booting many clustered instances of a horizontally scaled application such as a NoSQL database.
+
+OSv cloud-init works the same way across public and private clouds, so a cloud-init configuration developed in-house will work anywhere you choose to deploy&mdash;perfect for hybrid cloud environments.
 
