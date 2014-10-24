@@ -38,15 +38,19 @@ We plan to add specialized APIs that expose processor hardware, such as the page
 
 OS<sup>V</sup> supports all the languages that the JVM supports: Java, of course, as well as Ruby (via JRuby), JavaScript (via Rhino and Nashorn), Scala, and many more.
 
-In time we hope to receive support for other runtimes such as php, python (reported to work), etc.
+Support for native Ruby and for node.js is in progress.
+
+In time we hope to receive support for other runtimes such as PHP and Python.
 
 ### What hypervisors does OS<sup>V</sup> support?
 
-OS<sup>V</sup> runs on top of the KVM and Xen (HVM mode) hypervisors. Support for VMware and Xen PV mode are planned.
+OS<sup>V</sup> runs on the VMware, VirtualBox, KVM, and Xen hypervisors.
 
 ### What processor do I need to run OS<sup>V</sup>?
 
 An x86 processor with 64-bit support (also known as x86-64 or x64) is required.
+
+Support for 64-bit ARM processors is in progress.
 
 We welcome new architecture ports.
 
@@ -61,6 +65,8 @@ While C++ has a deserved reputation for being incredibly complicated, it is also
 Easy; spawn an EC2 image or download an image, run it and upload your application.
 
 Developers should clone the repository and follow the README. Find an interesting area and send patches to the mailing list. Currently, Fedora 18 or 19, and Ubuntu 13.04 on x86-64 are supported as development platforms.
+
+For more detailed instructions on contributing, see [Formatting and sending patches](https://github.com/cloudius-systems/osv/wiki/Formatting-and-sending-patches).
 
 ### How is OS<sup>V</sup> licensed?
 
