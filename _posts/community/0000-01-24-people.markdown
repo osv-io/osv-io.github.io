@@ -9,17 +9,19 @@ show_heading: yes
 Who is working on OSv?
 <!--more-->
 
-OSv project is lead by [Cloudius Systems](http://cloudius-systems.com/) and includes many
-talented people from different companies and different places.
-  
-Here is a list of
+The OSv Git repository has a list of
 [contributors](https://github.com/cloudius-systems/osv/graphs/contributors)
-to the osv core.
+to the OSv core, including many 
+talented people from different companies and different places.
 
 Even more people are contributing to related projects like
 [Capstan](https://github.com/cloudius-systems/capstan/graphs/contributors),
 [OSv management](https://github.com/cloudius-systems/mgmt/graphs/contributors)
 and others.
 
-Want to help? join us as a developer, user or enthusiast.
-Check out our [todo](/todo) for more info
+The OSv project is led by [Cloudius Systems](http://cloudius-systems.com/).
+
+Want to help? Join us as a developer, user or enthusiast.
+Check out our [todo](/todo) for more info, or [formatting and sending patches](https://github.com/cloudius-systems/osv/wiki/Formatting-and-sending-patches) to see how we work.
+
+
