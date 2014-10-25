@@ -8,6 +8,17 @@ nav: learn
 
 <!--more-->
 
+## Cassandra Summit, September 2014
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/39025445" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/dmarti1111/osv-at-cassandra-summit" title="OSv at Cassandra Summit" target="_blank">OSv at Cassandra Summit</a> </strong> from <strong><a href="//www.slideshare.net/dmarti1111" target="_blank">Don Marti</a></strong> </div>
+
+
+## USENIX Federated Conferences Week, June 2014
+
+<a href="https://www.usenix.org/conference/atc14/technical-sessions/presentation/kivity"><img alt="conference paper, audio, and video" src=" https://www.usenix.org/sites/default/files/styles/video-thumbnail/public/conference/video/kivity.jpeg?itok=h_CU608L"></a>
+
+&nbsp;
+
 ## Cloud Foundry Summit, June 2014
 
 <a href="https://2014.event.cfsummit.com/schedule/537bc5ceecdcc42c49000013">OSv: Probably the Best OS for Cloud Workloads You've Never Heard Of</a> by <a href="http://blog.gopivotal.com/pivotal/pivotal-people/pivotal-people-roman-shaposhnik-founder-of-apache-bigtop-joins-pivotal">Roman Shaposhnik</a> from <a href="http://www.gopivotal.com/">Pivotal Software</a>
