@@ -1,7 +1,7 @@
 ---
 layout: nav
 title: Beta Release
-category: learn
+category: started
 show_heading: yes
 nav: learn
 ---
