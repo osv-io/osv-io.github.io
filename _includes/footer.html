@@ -29,5 +29,22 @@
         </p></div>
 
 </div>
+
+<script>
+	function doPopup() {
+		message = '<a href="https://twitter.com/CloudiusSystems">' +
+				'Early access beta coming soon. ' +
+				'For updates, please follow @CloudiusSystems on Twitter.</a>'
+
+		toastr.options = {
+	  		"positionClass": "toast-bottom-right",
+			"timeOut": 0
+		}
+
+		toastr.info(message);
+	}
+
+	window.addEventListener("load", doPopup, false);
+</script>
 </body>
 </html>
