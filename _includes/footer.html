@@ -32,13 +32,12 @@
 
 <script>
 	function doPopup() {
-		message = '<a href="https://twitter.com/CloudiusSystems">' +
-				'Early access beta coming soon. ' +
-				'For updates, please follow @CloudiusSystems on Twitter.</a>'
+		message = '<a href="http://osv.io/beta-release/">' +
+				'Early access beta beginning now. Click for more info.</a>'
 
 		toastr.options = {
 	  		"positionClass": "toast-bottom-right",
-			"timeOut": 0
+			"hideDuration": 60000
 		}
 
 		toastr.info(message);
