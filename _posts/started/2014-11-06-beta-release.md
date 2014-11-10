@@ -4,9 +4,10 @@ title: Beta Release
 category: started
 show_heading: yes
 nav: learn
+redirect_from: "/beta/"
 ---
 
-**OSv 0.14 "Aspen" is the first of a series of closed Beta releases of OSv.**
+**OSv "Aspen" is the first of a series of closed Beta releases of OSv.**
 OSv is a new lightweight OS, designed from the ground up to run in a
 virtual cloud environment, with maximum performance, low latency, and
 simple management.
@@ -34,6 +35,10 @@ OSv is fully functional on the following hypervisors:
 * Xen
 * VMware
 * VirtualBox
+
+For now, Beta program includes only EC2, but you can already
+[Register](beta-registration) for other providers.
+We will notify you when they become available.
 
 ### Linux Compatibility
 OSv is binary compatible with Linux, and can run most Linux applications.
@@ -94,7 +99,7 @@ its own section. Out of the box OSv supports:
   * Redis
   * Cassandra
 
-More info: [OSv Virtual Appliances](http://localhost:4000/virtual-appliances/)
+More info: [OSv Virtual Appliances](virtual-appliances)
 
   
 ### Capstan
