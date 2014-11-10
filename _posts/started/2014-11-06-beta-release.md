@@ -17,6 +17,7 @@ We are accepting applications for the OSv beta program.  To apply, please visit 
 
 <!--more-->
 
+
 ## Release Features
 Below is a partial list of OSv Beta release features.
 
@@ -47,7 +48,7 @@ OSv has a REST API for OS and application-level configuration and runtime manage
 
 The REST API supports:
 
-* Optional SSL support
+* Optional SSL 
 * Swagger UI - browser based front end for the API and documentation
 * New [command line interface for the REST API](https://github.com/cloudius-systems/osv/wiki/Command-Line-Interface-(CLI))
 
@@ -97,8 +98,16 @@ More info: [OSv Virtual Appliances](http://localhost:4000/virtual-appliances/)
 
   
 ### Capstan
-a tool for rapidly building and running your application
+
+Capstan is a Docker-like tool for rapidly building and running your application
 on OSv. More info at: [Capstan](capstan)  
+
+## Beta monitoring
+
+Beta releases are built with a [lightweight monitoring
+system](/osv-stat/) to collect some information on
+your environment at each boot.  Monitoring is not enabled
+on releases built from source.
 
 
 ### Beta FAQ
