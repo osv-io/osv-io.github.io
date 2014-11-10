@@ -48,3 +48,7 @@ $ git clone https://github.com/cloudius-systems/osv.git
 {% endhighlight %}
 
 Then follow the instructions in the [README](https://github.com/cloudius-systems/osv/blob/master/README.md) file.
+
+## Data collection
+
+OSv binaries collect and send some basic data at each boot.  For more information, see [osv-stat](/osv-stat/).
