@@ -3,6 +3,7 @@ layout: nav
 title: "NewRelic on OSv"
 date: 2014-09-24 15:22:22 -0800
 category: learn
+nav: learn
 ---
 
 **By Tzach Livyatan**
@@ -46,12 +47,18 @@ The second assumes you are familiar with [Capstan](https://github.com/cloudius-s
 mkdir my-tomcat-with-newrelic
 cd my-tomcat-with-newrelic
 ```
+
+
 * Copy newrelic.jar and newrelic.yml to this location
 * Create a new [Capstanfile](https://github.com/cloudius-systems/capstan/blob/master/Documentation/Capstanfile.md) with the following contents:
 
+
+
 ```
 base: cloudius/osv-tomcat
+```
 
+```
 cmdline: >
   /java.so
   -javaagent:/tools/newrelic.jar
@@ -63,7 +70,9 @@ cmdline: >
   -Djava.io.tmpdir=/usr/tomcat/temp
   org.apache.catalina.startup.Bootstrap
   start
+```
 
+```
 files:
   /tools/newrelic.jar: newrelic.jar
   /tools/newrelic.yml: newrelic.yml
@@ -85,6 +94,7 @@ capstan run -n bridge
 ```
 * Go to the New Relic web app, monitor your application, and give yourself a
   pat on the shoulder :)
+  
   
 You can keep up with the latest OSv news from this blog's [feed](http://osv.io/blog/atom.xml), or by following [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.  Questions always welcome on the [osv-dev](https://groups.google.com/forum/#!forum/osv-dev) mailing list.
 
