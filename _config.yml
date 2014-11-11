@@ -2,7 +2,7 @@ name: Your New Jekyll Site
 markdown: kramdown
 pygments: true
 permalink: /:title
-#url: http://osv.io
+url: http://osv.io
 excerpt_separator: <!--more-->
 # gems:
 #  - jekyll-redirect-from
