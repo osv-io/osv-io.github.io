@@ -46,6 +46,8 @@ Let us know! we may want to expedite this feature priority
 <!-- Register for OSv Beta [TBD link] to get a AMI ID to use. -->
 
 
+
+
 ## Redis Virtual Appliance 
 
 Redis is an open source advanced key-value cache and store. It is often referred to as a data structure server, since keys can contain strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
@@ -152,3 +154,24 @@ If you want to enable OSv SSL, you need to add a SSL section to the user data as
 #### Choosing the right instance size
 For production use, we recommend using  m3.xlarge (medium), m3.2xlarge (large) or similar servers.
 
+## OSvFlashcache Virtual Appliance
+
+### A new lightweight NoSQL store
+
+As the name suggest, OSvFlashCache is an extension of OSvMemcached, enhanced to support flash storage.  Working efficiently with flash memory allow OSvFlashCache to support much higher volumes of data, while keeping the memcached interface and simplicity.
+
+###  Why OSv-Flashcache Virtual Appliance?
+Higher  throughput, lower latency and easy Easier administration.
+Native for SSD, now available from public cloud providers.  For best results, use one of the EC2 m3.x instance types.
+
+### What is included?
+OSvFlashcache fully support the Memcached Text interface, so no changes in the client application is required.
+
+###What is missing?
+
+OSvFlashcache  does not yet support the binary interface.
+
+
+## Virtual appliance AMIs
+
+Register for the [OSv Private Beta](/beta-release/) to obtain ready-to-run virtual appliances for Amazon EC2.
