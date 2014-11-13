@@ -19,6 +19,19 @@ We are accepting applications for the OSv beta program.  To apply, please visit 
 <!--more-->
 
 
+### Virtual Appliances
+
+OSv virtual appliances are virtual machine images with popular
+software, and management tools, pre-installed.
+The following appliances are included in the OSv Beta program:
+
+  * [Flashcache](flashcache)
+  * Memcache
+  * Redis
+  * Cassandra
+
+More info: [OSv Virtual Appliances](virtual-appliances)
+
 ## Release Features
 Below is a partial list of OSv Beta release features.
 
@@ -94,14 +107,6 @@ its own section. Out of the box OSv supports:
 * Management UI settings
 
 * Per application configuration 
-
-
-### Virtual Appliances
-  * Memcache
-  * Redis
-  * Cassandra
-
-More info: [OSv Virtual Appliances](virtual-appliances)
 
   
 ### Capstan
