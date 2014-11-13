@@ -3,6 +3,7 @@ layout: nav
 title: "Jolokia JMX connectivity in OSv"
 category: learn
 show_heading: yes
+nav: learn
 ---
 **By Calle Wilund**
 

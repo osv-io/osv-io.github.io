@@ -3,7 +3,7 @@ layout: nav
 title: Beta Release
 category: started
 show_heading: yes
-nav: learn
+nav: started
 redirect_from: "/beta/"
 ---
 
@@ -68,6 +68,8 @@ trace points and much more.
 When running OSv as a virtual appliance, the dashboard will automatically include run-time and application tabs, with specific metrics for each.  For example, JVM and Cassandra tabs.  You can also add your own tabs when developing a new appliance. 
 
 ![Dashboard main tab](images/dashboard_main_tab.png)
+
+[More information on the Dashboard](https://github.com/cloudius-systems/osv/wiki/OSv-Dashboard)
 
 
 

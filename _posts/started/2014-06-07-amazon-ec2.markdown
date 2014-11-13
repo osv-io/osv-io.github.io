@@ -6,7 +6,11 @@ nav: started
 show_heading: yes
 read_more: yes
 ---
-Latest OSv AMIs are available
+
+For close beta AMI, please register using the [beta registration form](beta-registration).
+
+
+Latest open OSv AMIs are available
 **[here](https://github.com/cloudius-systems/osv/wiki/Latest-EC2-AMI-list)**,
 or look for "osv" in EC2 Community AMI.
 
