@@ -4,6 +4,7 @@ title: Flashcache
 category: learn
 show_heading: yes
 nav: learn
+redirect_from: "/Flashcache/"
 ---
 
 As the name suggest, FlashCache is an extension of Memcached, enhanced to extend the storage capacity from RAM-only towards the SSD drive while preserving the performance
@@ -44,6 +45,5 @@ Flashcache fully support the Memcached Text interface, so no changes in the clie
 You need to Register to join the Flashcache beta program
 
 ## Register to join the Flashcache beta program
-<iframe src="https://docs.google.com/forms/d/1zwFz1RS3r8ufeehM3WdIxh3gzng5O7EG7zDTgQR-JRU/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+<iframe src="https://docs.google.com/forms/d/19T0QVSXwAcrwGfQYAkdIqcZM9eoWfyaR_YYkdAbcziY/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
