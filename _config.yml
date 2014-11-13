@@ -4,5 +4,5 @@ pygments: true
 permalink: /:title
 url: http://osv.io
 excerpt_separator: <!--more-->
-# gems:
-#  - jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
