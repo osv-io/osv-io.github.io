@@ -11,6 +11,17 @@ OSv virtual appliances are virtual machine images with popular software, and man
 
 <!--more-->
 
+## Flashcache Virtual Appliance
+
+### A new lightweight NoSQL store
+
+Flashcache is an extension of OSvMemcached, enhanced to support flash
+storage.  
+Working efficiently with flash memory allow Flashcache to support much higher volumes of data, while keeping the memcached interface and simplicity.
+
+[More on Flashcache and Flashcache beta program](flashcache)
+
+
 ## Memcached Virtual Appliance
 
 Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.
@@ -144,32 +155,16 @@ To launch a OSvC* cluster on EC2, you need to:
 
  * Define the following user data:
 
-```
+{% highlight bash %}
 cassandra:
-    clustername: Your Cluster Name
-    totalnodes: 3
-```
+  clustername: Your Cluster Name
+  totalnodes: 3
+{% endhighlight %}
+
 If you want to enable OSv SSL, you need to add a SSL section to the user data as well.
 
 #### Choosing the right instance size
 For production use, we recommend using  m3.xlarge (medium), m3.2xlarge (large) or similar servers.
-
-## OSvFlashcache Virtual Appliance
-
-### A new lightweight NoSQL store
-
-As the name suggest, OSvFlashCache is an extension of OSvMemcached, enhanced to support flash storage.  Working efficiently with flash memory allow OSvFlashCache to support much higher volumes of data, while keeping the memcached interface and simplicity.
-
-###  Why OSv-Flashcache Virtual Appliance?
-Higher  throughput, lower latency and easy Easier administration.
-Native for SSD, now available from public cloud providers.  For best results, use one of the EC2 m3.x instance types.
-
-### What is included?
-OSvFlashcache fully support the Memcached Text interface, so no changes in the client application is required.
-
-###What is missing?
-
-OSvFlashcache  does not yet support the binary interface.
 
 
 ## Virtual appliance AMIs
