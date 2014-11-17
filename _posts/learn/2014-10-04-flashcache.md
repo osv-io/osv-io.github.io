@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Flashcache
-category: learn
 show_heading: yes
-nav: learn
+category: started
+nav: started
 ---
 
 As the name suggest, FlashCache is an extension of Memcached, enhanced to extend the storage capacity from RAM-only towards the SSD drive while preserving the performance
