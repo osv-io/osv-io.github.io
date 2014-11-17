@@ -1,9 +1,9 @@
 ---
 layout: nav
 title: Flashcache
-category: learn
 show_heading: yes
-nav: learn
+nav: started
+category: started
 redirect_from: "/Flashcache/"
 ---
 

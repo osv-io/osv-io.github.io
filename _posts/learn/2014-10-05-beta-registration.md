@@ -6,6 +6,12 @@ show_heading: yes
 nav: learn
 ---
 
+If you are interested in Flashcache Beta program please
+[register to it here](flashcache)
+
+For other OSv Beta use cases see below
+
+
 ## Beta Program
 Thank you for applying for the OSv beta program.
 
