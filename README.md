@@ -3,22 +3,16 @@
 
 ## Setting up
 
+Install matching versions of all Ruby gems for GitHub Pages.  This will make sure that you can preview features such as HTTP Redirects.
+
 ```sh
-$ sudo gem install jekyll rouge execjs therubyracer kramdown
+$ bundle install
 ```
 
 ```sh
 $ git clone https://github.com/osv-io/osv-io.github.io.git osv-io
 $ cd osv-io
 ```
-
-Edit _config.yml, replace:
-
- `url: http://osv.io`
-
-with:
-
- `url: http://localhost:4000`
 
 ## Starting the server:
 
@@ -30,7 +24,7 @@ $ export LC_ALL="en_US.UTF-8"
 
 Start jekyll:
 ```sh
-$ jekyll serve --baseurl ''
+$ ./preview.sh
 ```
 
-You can browse now to [localhost:4000](http://localhost:4000).
+The `preview.sh` script will run a `jekyll serve` with configuration set up for your local copy.  You can browse now to [localhost:4000](http://localhost:4000).
