@@ -1,49 +1,52 @@
 ---
 layout: nav
-title: Flashcache
+title: FlashCache
 show_heading: yes
 nav: started
 category: started
 redirect_from: "/Flashcache/"
 ---
 
-As the name suggest, FlashCache is an extension of Memcached, enhanced to extend the storage capacity from RAM-only towards the SSD drive while preserving the performance
+As the name suggests, FlashCache is an extension of Memcached.  It is enhanced to extend the storage capacity from RAM only to also include SSD storage, while preserving the performance
 properties of memcache. Efficient LRU algorithms and a special framework are responsible
-to keep that used working set in memory while non recently used data is evicated to disk in the background. FlashCache allows higher volume of data, while keeping memcached interface and simplicity, and most important - near RAM performance.
+for keeping the working set in memory while less recently used data is evicted to Flash storage in the background. FlashCache allows higher volume of data, while keeping the memcached interface and simplicity with near RAM performance.
 
-Flashcache can reach 300k pps per core with RAM and 100k pps w/ SSD
+FlashCache can reach 300k pps per core with RAM and 100k pps w/ SSD
 per core, with almost linear scalability per core.
 
 ![flash](images/flash.png)
 
 ### Unique Architecture
 Flashcache reach its super fast throughput and low latency through a new
-architecture named "Seastar"
+architecture named "Seastar."
 Seastar is a new framework for supreme performance, base on a
 few key architectural principles:
 
 
-* Share nothing. Each core run completely independent thread of
-  computation, with zero shared resources between cores
-* *All* inter core communication is done via message passing
-* *All* interaction is done a-sync
-Although each of the rules above is known and used before in system
-like Node.js, Seastar is the first to take it to such extreme, down
-to the TCP and IP stacks.
-Use of latest C++14 feature allow easy development, without
+* Share nothing. Each core runs a completely independent thread of
+  computation, with zero shared resources between cores.
+* *All* inter core communication is done via message passing.
+* *All* interaction is done asynchronously.
+
+Although each of the rules above is known and has been used before in systems
+such as Node.js, Seastar is the first to take it to all levels of the system, including the TCP and IP layers.
+
+Use of some recently adopted C++14 features allow for easy development, without
 compromising on performance and correctness.
-In particular Seastar is a good fit for application with high throughput, and small to medium information element size. NoSQL DB in memory and flash bases caches are a good examples.
 
-### Why Flashcache Appliance?
-Higher  throughput, lower latency and easy Easier administration.
-Native for SSD, now available from public cloud providers, for example EC2 m3.x, c3.x and r3.x  instance types
+In particular Seastar is a good fit for applications with high throughput and small to medium information element size. NoSQL databases, and flash based caches, are two good examples.
 
-* Whats is included?
-Flashcache fully support the Memcached Text interface, so no changes in the client application is required.
+### Why a FlashCache Appliance?
 
-* How can I get it?
-You need to Register to join the Flashcache beta program
+* Higher  throughput, lower latency and easy Easier administration.
+* Native for SSD, now available from public cloud providers (for example the Amazon EC2 m3.x, c3.x and r3.x instance types)
 
-## Register to join the Flashcache beta program
+* FlashCache fully supports the Memcached Text interface, so no changes in the client application is required.
+
+## Available in private beta
+
+FlashCache is currently available in a private beta release to registered users. 
+
+### Register to join the FlashCache beta program
 <iframe src="https://docs.google.com/forms/d/19T0QVSXwAcrwGfQYAkdIqcZM9eoWfyaR_YYkdAbcziY/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
