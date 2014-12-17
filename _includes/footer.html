@@ -22,15 +22,33 @@
     </div>
 </div>
 <div class="pealBanner">
-
-
     <div class="custom"  >
         <p><a href="https://github.com/cloudius-systems/osv" target="_blank"> <img onmouseover="this.src='images/forkhover.png';" onmouseout="this.src='images/fork.png';" src="images/fork.png" alt="" width="136" height="178" /></a>
         </p></div>
-
 </div>
 
+<a href="https://github.com/cloudius-systems/osv/"
+id="special" style="position:absolute; left:16000; top:0;"><img
+	src="/images/santa/s1.png" alt=""></a>
+
 <script>
+	var specialId = 1;
+	var specialX = 16000;
+	var specialEl = document.getElementById('special');
+	var specialImg = specialEl.firstElementChild;
+	function doSpecial() {
+		specialId = (specialId+1)%4;
+		specialImg.src = '/images/santa/s' + specialId + '.png';
+		specialX += 6;
+		specialEl.style.left = specialX + 'px';
+		if (specialX > window.innerWidth) {
+			specialX = -200;
+			specialEl.style.top = Math.floor(Math.random() * window.innerHeight/2 + 20) + 'px';
+		}
+
+		window.setTimeout(doSpecial, 200);
+	}	
+
 	function doPopup() {
 		message = '<a href="http://osv.io/beta-release/">' +
 				'Early access beta beginning now. Click for more info.</a>'
@@ -44,6 +62,7 @@
 	}
 
 	window.addEventListener("load", doPopup, false);
+	window.addEventListener("load", doSpecial, false);
 </script>
 </body>
 </html>
