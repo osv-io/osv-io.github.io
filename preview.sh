@@ -1,4 +1,4 @@
 #!/bin/sh
 
-jekyll serve -w --config _config.yml,preview_config.yml
+bundle exec jekyll serve -w --config _config.yml,preview_config.yml
 
