@@ -6,10 +6,10 @@ show_heading: yes
 nav: learn
 ---
 
-## What is the Beta program all about? why is it close?
+## What is the Beta program all about? why is it closed?
 [Beta related questions](beta-release)
 
-## Why a new operating system?
+### Why a new operating system?
 
 Operating systems have evolved over decades to perform two distinct functions: manage the hardware, and provide isolation between the multiple applications and user running on the system.
 
@@ -63,14 +63,32 @@ Aren’t there enough operating systems written in C? Let’s give another langu
 
 While C++ has a deserved reputation for being incredibly complicated, it is also incredibly rich and flexible, and in particular has very a flexible standard library as well as add-on libraries such as boost. This allows OS<sup>V</sup> code to be much more concise than it would be if it were written in C, while retaining the close-to-the-metal efficiency of C.
 
+### How can I administer a running OSv instance?
+
+The OSv management concept is to place all of the access methods on top of our RESTful API. If you run an image you can upload files, define environment variables and do other tasks. It's also possible to mix host and guest processing when you're using the CLI on the host.  For example:
+
+  - browse the GUI, at [/dashboard](http://192.168.122.89:8000/dashboard)
+
+  - Test the REST API using Swagger, at [/dashboard/swagger/](http://192.168.122.89:8000/dashboard/swagger/)
+
+  - Run the Lua-based CLI on the host and connect to the guest:<br>`./cli --api=http://192.168.122.89:8000`
+
+For more info on the OSv CLI, see the [CLI reference page](https://github.com/cloudius-systems/osv/wiki/Command-Line-Interface-(CLI)).   
+
+
 ### How can I contribute?
 
 Easy; spawn an EC2 image or download an image, run it and upload your application.
 
-Developers should clone the repository and follow the README. Find an interesting area and send patches to the mailing list. Currently, Fedora 18 or 19, and Ubuntu 13.04 on x86-64 are supported as development platforms.
+Developers should clone the repository and follow the README. Find an interesting area and send patches to the mailing list. Currently, Fedora 18-21 and Ubuntu 13.04 on x86-64 are supported as development platforms.
 
 For more detailed instructions on contributing, see [Formatting and sending patches](https://github.com/cloudius-systems/osv/wiki/Formatting-and-sending-patches).
 
 ### How is OS<sup>V</sup> licensed?
 
 OS<sup>V</sup> is available under a 3-clause BSD-style license.
+
+### My question doesn't appear here. Where should I ask?
+
+You are welcome to post to the [osv-dev mailing list](https://groups.google.com/forum/#!forum/osv-dev), where OSv developers and users are available to answer questions.  
+
