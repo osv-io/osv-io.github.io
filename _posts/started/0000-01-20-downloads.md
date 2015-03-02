@@ -51,13 +51,6 @@ For more information, see [osv-stat](osv-stat)
   * [Download]({{page.cassandra}}{{page.esx}}) OVA for VMWare ESXi
 
 
-* Memcached Virtual Appliance
-  * [Download]({{page.mem}}{{page.qcow}}) QCOW2 for KVM
-  * [Download]({{page.mem}}{{page.vbox}}) OVA for VirtualBox
-  * [Download]({{page.mem}}{{page.vmw}}) VMW for VMWare workstation
-  * [Download]({{page.mem}}{{page.esx}}) OVA for VMWare ESXi
-
-
 * Tomcat Virtual Appliance
   * [Download]({{page.tomcat}}{{page.qcow}}) QCOW2 for KVM
   * [Download]({{page.tomcat}}{{page.vbox}}) OVA for VirtualBox
