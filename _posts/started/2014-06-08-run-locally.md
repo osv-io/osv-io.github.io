@@ -21,6 +21,17 @@ curl https://raw.githubusercontent.com/cloudius-systems/capstan/master/scripts/d
 {% endhighlight %}
 Capstan is now installed.
 
+### Fedora
+Using yum
+{% highlight bash %}
+sudo yum -y install https://repo.cloudrouter.org/1/x86_64/cloudrouter-repo-latest.noarch.rpm
+sudo yum -y install capstan
+{% endhighlight %}
+
+Or
+[download the RPM](https://repo.cloudrouter.org/1/x86_64/capstan-0.1.8-1.x86_64.rpm)
+
+Courtesy of our friends at [CloudRouter](https://cloudrouter.org/)!
 
 ### Windows Installation
 [![Install capstan on Windows 8.1 ](http://img.youtube.com/vi/-k7SlS-2Ank/0.jpg)](https://www.youtube.com/watch?v=-k7SlS-2Ank)
