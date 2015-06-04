@@ -12,12 +12,12 @@ qcow: .qemu.qcow2
 vbox: .vbox.ova
 vmw: .vmw.zip
 
-osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.20
-tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.20
-mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.20
-iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.20
-cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.20
-redis: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-redis-memonly/osv-redis-memonly-v0.20
+osv: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv/osv-v0.21
+tomcat: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-tomcat/osv-tomcat-v0.21
+mem: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-memcached-opt/osv-memcached-opt-v0.21
+iperf: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-iperf/osv-iperf-v0.21
+cassandra: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-cassandra/osv-cassandra-v0.21
+redis: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-redis-memonly/osv-redis-memonly-v0.21
 
 
 ---
@@ -25,7 +25,7 @@ redis: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-redis-memonly/osv-r
 For Beta images please [Register](beta-registration)
 
 
-### OSv Images - release 0.20
+### OSv Images - release 0.21
 The recommended way to run OSv [locally](/run-locally)
 is using [Capstan](/capstan)
 
