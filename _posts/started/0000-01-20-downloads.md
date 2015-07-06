@@ -22,8 +22,6 @@ redis: http://downloads.osv.io.s3.amazonaws.com/cloudius/osv-redis-memonly/osv-r
 
 ---
 
-For Beta images please [Register](beta-registration)
-
 
 ### OSv Images - release 0.20
 The recommended way to run OSv [locally](/run-locally)

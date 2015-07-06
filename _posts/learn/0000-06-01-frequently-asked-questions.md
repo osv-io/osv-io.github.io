@@ -6,9 +6,6 @@ show_heading: yes
 nav: learn
 ---
 
-## What is the Beta program all about? why is it closed?
-[Beta related questions](beta-release)
-
 ### Why a new operating system?
 
 Operating systems have evolved over decades to perform two distinct functions: manage the hardware, and provide isolation between the multiple applications and user running on the system.

@@ -22,7 +22,6 @@ architecture named "Seastar."
 Seastar is a new framework for supreme performance, base on a
 few key architectural principles:
 
-
 * Share nothing. Each core runs a completely independent thread of
   computation, with zero shared resources between cores.
 * *All* inter core communication is done via message passing.
@@ -42,11 +41,4 @@ In particular Seastar is a good fit for applications with high throughput and sm
 * Native for SSD, now available from public cloud providers (for example the Amazon EC2 m3.x, c3.x and r3.x instance types)
 
 * FlashCache fully supports the Memcached Text interface, so no changes in the client application is required.
-
-## Available in private beta
-
-FlashCache is currently available in a private beta release to registered users. 
-
-### Register to join the FlashCache beta program
-<iframe src="https://docs.google.com/forms/d/19T0QVSXwAcrwGfQYAkdIqcZM9eoWfyaR_YYkdAbcziY/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 

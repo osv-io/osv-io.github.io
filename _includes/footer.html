@@ -45,19 +45,6 @@
 		window.setTimeout(doSpecial, 200);
 	}	
 
-	function doPopup() {
-		message = '<a href="http://osv.io/beta-release/">' +
-				'Early access beta in progress. Click for more info.</a>'
-
-		toastr.options = {
-	  		"positionClass": "toast-bottom-right",
-			"hideDuration": 60000
-		}
-
-		toastr.info(message);
-	}
-
-	window.addEventListener("load", doPopup, false);
 </script>
 </body>
 </html>
