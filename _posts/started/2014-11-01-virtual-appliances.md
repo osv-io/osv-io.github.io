@@ -19,8 +19,6 @@ Flashcache is an extension of OSvMemcached, enhanced to support flash
 storage.  
 Working efficiently with flash memory allow Flashcache to support much higher volumes of data, while keeping the memcached interface and simplicity.
 
-[More on Flashcache and Flashcache beta program](flashcache)
-
 
 ## Memcached Virtual Appliance
 
@@ -53,10 +51,6 @@ OSvMemcached does not yet support the binary interface.
 If you want to use binary interface: 
 this version of OSvMemcached is not the right choice for you.
 Let us know! we may want to expedite this feature priority
-
-<!-- Register for OSv Beta [TBD link] to get a AMI ID to use. -->
-
-
 
 
 ## Redis Virtual Appliance 
@@ -97,8 +91,6 @@ OSv Redis is in-memory only. It does NOT support persistency.
 If you want to use persistency: 
 this version of OSv Redis is not the right choice for you.
 Let us know! we may want to expedite this feature priority.
-
-<!-- Register for OSv Beta [TBD link] to get a AMI ID to use. -->
 
 
 ## Cassandra Virtual Appliance
@@ -166,7 +158,3 @@ If you want to enable OSv SSL, you need to add a SSL section to the user data as
 #### Choosing the right instance size
 For production use, we recommend using  m3.xlarge (medium), m3.2xlarge (large) or similar servers.
 
-
-## Virtual appliance AMIs
-
-Register for the [OSv Private Beta](/beta-release/) to obtain ready-to-run virtual appliances for Amazon EC2.
