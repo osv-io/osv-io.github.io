@@ -22,6 +22,6 @@ and others.
 The OSv project is led by [Cloudius Systems](http://cloudius-systems.com/).
 
 Want to help? Join us as a developer, user or enthusiast.
-Check out our [todo](/todo) for more info, or [formatting and sending patches](https://github.com/cloudius-systems/osv/wiki/Formatting-and-sending-patches) to see how we work.
+Read [formatting and sending patches](https://github.com/cloudius-systems/osv/wiki/Formatting-and-sending-patches) to see how we work.
 
 
