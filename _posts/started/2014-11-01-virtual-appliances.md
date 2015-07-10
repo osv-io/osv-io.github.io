@@ -11,15 +11,6 @@ OSv virtual appliances are virtual machine images with popular software, and man
 
 <!--more-->
 
-## Flashcache Virtual Appliance
-
-### A new lightweight NoSQL store
-
-Flashcache is an extension of OSvMemcached, enhanced to support flash
-storage.  
-Working efficiently with flash memory allow Flashcache to support much higher volumes of data, while keeping the memcached interface and simplicity.
-
-
 ## Memcached Virtual Appliance
 
 Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.
