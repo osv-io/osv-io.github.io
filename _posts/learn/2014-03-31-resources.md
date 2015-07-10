@@ -8,6 +8,16 @@ nav: learn
 
 <!--more-->
 
+## Apachecon Budapest, November, 2014
+
+OSv: Probably the Best OS for Cloud Workloads by <a href="http://blog.gopivotal.com/pivotal/pivotal-people/pivotal-people-roman-shaposhnik-founder-of-apache-bigtop-joins-pivotal">Roman Shaposhnik</a> from <a href="http://www.gopivotal.com/">Pivotal Software</a>
+
+<object data="images/OSv_ACEU14.pdf#zoom=scale" type="application/pdf" width="900" height="700">
+    <param name="view" value="Fit" />
+</object>
+
+
+
 ## Cassandra Summit, September 2014
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/39025445" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/dmarti1111/osv-at-cassandra-summit" title="OSv at Cassandra Summit" target="_blank">OSv at Cassandra Summit</a> </strong> from <strong><a href="//www.slideshare.net/dmarti1111" target="_blank">Don Marti</a></strong> </div>
