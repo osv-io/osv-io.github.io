@@ -3,7 +3,7 @@
     <div class="rightCol">
         <div class="moduletable_menu">
             <ul class="nav menu">
-                {% for p in site.categories[{{page.nav}}] %}
+                {% for p in site.categories[page.nav] %}
                 {% if p.no_sidebar != true %}
                 {% if p.url == page.url %}
                 <li class="current active"><a href="{{p.url}}">{{p.title}}</a></li>
