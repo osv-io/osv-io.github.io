@@ -38,3 +38,7 @@ $ ./preview.sh
 ```
 
 The `preview.sh` script will run a `jekyll serve` with configuration set up for your local copy.  You can browse now to [localhost:4000](http://localhost:4000).
+
+## Publishing
+
+The advised way to edit content on osv.io is to to fork this repository, create branch for you changes and finally create merge request against master of this repo. Aproving pull request will automatically trigger publishing any changes.
