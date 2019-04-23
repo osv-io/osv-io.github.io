@@ -5,6 +5,7 @@ category: started
 nav: started
 show_heading: yes
 read_more: yes
+order: 2
 ---
 
 The easiest way to try OSv locally is to use the [Capstan](https://github.com/cloudius-systems/capstan/blob/master/README.md) tool to run one of the

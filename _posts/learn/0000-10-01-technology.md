@@ -4,6 +4,7 @@ title: Technology
 category: learn
 show_heading: yes
 nav: learn
+order: 3
 ---
 
 ## The cloud design allows OSv to simplify the stack, both looking down (towards the hardware) and looking up (towards the application).

@@ -4,6 +4,7 @@ title: "NewRelic on OSv"
 date: 2014-09-24 15:22:22 -0800
 category: learn
 nav: learn
+order: 11
 ---
 
 **By Tzach Livyatan**
@@ -96,5 +97,5 @@ capstan run -n bridge
   pat on the shoulder :)
   
   
-You can keep up with the latest OSv news from this blog's [feed](http://osv.io/blog/atom.xml), or by following [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.  Questions always welcome on the [osv-dev](https://groups.google.com/forum/#!forum/osv-dev) mailing list.
+You can keep up with the latest OSv news from this blog's [feed](http://osv.io/blog/atom.xml), or by following [@OSv_unikernel](https://twitter.com/OSv_unikernel) on Twitter.  Questions always welcome on the [osv-dev](https://groups.google.com/forum/#!forum/osv-dev) mailing list.
 

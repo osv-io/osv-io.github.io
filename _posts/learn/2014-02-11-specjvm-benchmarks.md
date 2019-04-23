@@ -4,6 +4,7 @@ title: Spec JVM Benchmarks
 category: benchmarks
 show_heading: yes
 nav: learn
+order: 22
 ---
 
 The test compare two guest OS:

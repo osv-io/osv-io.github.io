@@ -5,6 +5,7 @@ category: started
 nav: started
 show_heading: yes
 read_more: yes
+order: 5
 ---
 OSv can run on Google Compute Engine (GCE).
 
@@ -16,4 +17,4 @@ Images are available for you to start your own instances.
 
 Detailed instructions on how to run OSv on GCE can be found [on the OSv wiki](https://github.com/cloudius-systems/osv/wiki/Running-OSv-on-Google-Compute-Engine).
 
-For updates on available images, follow [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter.
+For updates on available images, follow [@OSv_unikernel](https://twitter.com/OSv_unikernel) on Twitter.

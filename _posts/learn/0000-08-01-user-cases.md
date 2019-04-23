@@ -4,11 +4,12 @@ title: Use Cases
 category: learn
 show_heading: yes
 nav: learn
+order: 8
 ---
 
 ## Virtual appliance
 
-ISVs who offer a packaged application as a virtual machine image can benefit in several ways from releasing on OSv.  The VM images for OSv-based virtual appliances are small, often only 12-20MB larger than the application itself. And the ISV does not need to maintain and support the large set of software and configuration required by even the simplest guest images on other platforms. 
+ISVs who offer a packaged application as a virtual machine image can benefit in several ways from releasing on OSv.  The VM images for OSv-based virtual appliances are small, often only 6-7MB larger than the application itself. And the ISV does not need to maintain and support the large set of software and configuration required by even the simplest guest images on other platforms. 
 
 
 ## Network functions virtualization

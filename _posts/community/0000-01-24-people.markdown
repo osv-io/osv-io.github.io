@@ -4,6 +4,7 @@ title: People
 category: community
 nav: community
 show_heading: yes
+order: 1
 ---
 
 Who is working on OSv?

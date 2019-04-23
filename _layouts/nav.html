@@ -3,7 +3,10 @@
     <div class="rightCol">
         <div class="moduletable_menu">
             <ul class="nav menu">
-                {% for p in site.categories[page.nav] %}
+                {% assign nav_categories = site.categories[page.nav] %}
+                {% if nav_categories %}
+                {% assign sorted_categories = nav_categories | sort: 'order' %}
+                {% for p in sorted_categories %}
                 {% if p.no_sidebar != true %}
                 {% if p.url == page.url %}
                 <li class="current active"><a href="{{p.url}}">{{p.title}}</a></li>
@@ -12,6 +15,7 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
+                {% endif %}
             </ul>
         </div>
 

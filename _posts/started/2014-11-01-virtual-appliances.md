@@ -5,6 +5,7 @@ category: started
 nav: started
 show_heading: yes
 read_more: yes
+order: 6
 ---
 
 OSv virtual appliances are virtual machine images with popular software, and management tools, pre-installed.  
@@ -25,7 +26,7 @@ As many of these servers are deployed on the cloud, having Memcached available i
 
 #### Higher throughput, lower latency
 
-OSv Memcached provides higher throughput for EC2 instance types. For latest benchmark results see [Benchmarks](/benchmarks/).
+OSv Memcached provides higher throughput for EC2 instance types. For latest benchmark results see [Benchmarks](/benchmarks).
 With higher throughput per VM, you can choose to use a smaller number of instances per cluster, or use smaller instance types to support the same amount of traffic.
 In either case, OSv results in OPEX saving.
 
@@ -65,7 +66,7 @@ As many of these servers are deployed on the cloud, having Redis available in th
 ###Why OSv-Redis Virtual Appliance?
 
  * Higher  throughput, lower latency
- * OSv Redis  provides higher throughput for EC2 instance types. For latest benchmark results see [Benchmarks](/benchmarks/).
+ * OSv Redis  provides higher throughput for EC2 instance types. For latest benchmark results see [Benchmarks](/benchmarks).
 
 With higher throughput per VM, you can choose to use a smaller number of instances per cluster, or use smaller instance types to support the same amount of traffic.
 In either case, OSv results in OPEX saving.

@@ -4,6 +4,7 @@ title: Resources
 category: learn
 show_heading: yes
 nav: learn
+order: 7
 ---
 
 <!--more-->

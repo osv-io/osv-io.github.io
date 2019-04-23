@@ -4,6 +4,7 @@ title: Downloads
 category: started
 nav: started
 show_heading: yes
+order: 8
 
 releases: https://github.com/cloudius-systems/osv/releases/tag
 
