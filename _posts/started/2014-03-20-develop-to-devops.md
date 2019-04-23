@@ -4,6 +4,7 @@ title: Development to Devops
 category: started
 show_heading: yes
 nav: started
+order: 7
 ---
 
 OSv gives developers the power to build and run on the cloud with the minimum of overhead.  As you make incremental improvements in your application, you can create working VM images, ready to deploy anywhere, in real time.
@@ -30,5 +31,5 @@ With OSv-enabled VM images at your fingertips any time in the build process, the
 ## More information
 
 * [osv-dev mailing list](https://groups.google.com/forum/#!forum/osv-dev)
-* [@CloudiusSystems](https://twitter.com/CloudiusSystems) on Twitter
+* [@OSv_unikernel](https://twitter.com/OSv_unikernel) on Twitter
 
