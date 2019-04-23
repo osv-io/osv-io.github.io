@@ -7,7 +7,7 @@ category: top
 order: 2
 ---
 
-{% assign sorted_started_cats = site.categories.started | sort: 'title' %}
+{% assign sorted_started_cats = site.categories.started | sort: 'order' %}
 {% for p in sorted_started_cats %}
 {% if p.heading %}
 ## {{ p.heading }}

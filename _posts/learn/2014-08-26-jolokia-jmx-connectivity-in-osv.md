@@ -4,6 +4,7 @@ title: "Jolokia JMX connectivity in OSv"
 category: learn
 show_heading: yes
 nav: learn
+order: 12
 ---
 **By Calle Wilund**
 

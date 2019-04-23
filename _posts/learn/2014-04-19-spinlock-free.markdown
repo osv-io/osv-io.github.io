@@ -5,6 +5,7 @@ date: 2014-04-19 12:00:00 -0400
 category: learn
 show_heading: yes
 nav: learn
+order: 5
 ---
 Designing an OS to run specifically as a cloud guest doesn’t just mean stripping out features. There are some other important problems with running virtualized that a conventional guest OS doesn’t address.  In this post we'll cover one of them.
 

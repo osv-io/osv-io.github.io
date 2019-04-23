@@ -4,6 +4,7 @@ title: Benchmarks
 category: learn
 show_heading: yes
 nav: learn
+order: 10
 ---
 
 ## Redis on Amazon EC2

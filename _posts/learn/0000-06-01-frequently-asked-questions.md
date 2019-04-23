@@ -4,6 +4,7 @@ title: Frequently asked questions
 category: learn
 show_heading: yes
 nav: learn
+order: 13
 ---
 
 ### Why a new operating system?

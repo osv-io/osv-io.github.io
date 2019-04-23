@@ -4,6 +4,7 @@ title: Netperf Benchmarks
 category: benchmarks
 show_heading: yes
 nav: learn
+order: 21
 ---
 
 The test compare three different guest OS:

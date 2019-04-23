@@ -4,6 +4,7 @@ title: Use Cases
 category: learn
 show_heading: yes
 nav: learn
+order: 8
 ---
 
 ## Virtual appliance

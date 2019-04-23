@@ -7,7 +7,8 @@ category: top
 order: 3
 ---
 
-{% for p in site.categories.learn %}
+{% assign sorted_started_cats = site.categories.learn | sort: 'order' %}
+{% for p in sorted_started_cats %}
 {% if p.heading %}
 ## {{ p.heading }}
 {:.section-header}
