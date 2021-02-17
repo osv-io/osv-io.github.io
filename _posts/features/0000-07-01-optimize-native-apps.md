@@ -4,7 +4,7 @@ title: Optimize your Native apps
 order: 1
 ---
 
-Usually OS<sup>v</sup> runs unmodified applications. In order to provide even better performance, it's possible to access a low level kernel api.
+Usually OS<sup>v</sup> runs unmodified applications. In order to provide better performance than traditional VMs, OS<sup>v</sup> exposes a low level kernel api.
 
-An application has access to the block device and flushing, and can map the NIC descriptors directly (virtio-app) and signal the hypervisor. We believe that the number of cycles the application requires should always be smaller than the kernel path.
+An application has access to the block device and flushing, can map the NIC descriptors directly (virtio-app), and can signal the hypervisor. This allows performing IO without taking an expensive kernel path in the guest OS.
 
